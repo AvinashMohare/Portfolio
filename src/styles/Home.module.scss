@@ -1,0 +1,12 @@
+.rootHome {
+    height: 60vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .Title {
+        margin: 30px;
+    }
+}
