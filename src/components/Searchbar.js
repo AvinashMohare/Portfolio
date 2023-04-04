@@ -35,7 +35,7 @@ const SearchItems = [
 
 const Searchbar = () => {
     const [value, setValue] = useState("");
-    const [show, setShow] = useState(true);
+    const [show, setShow] = useState(false);
 
     const onChange = (event) => {
         setValue(event.target.value);
