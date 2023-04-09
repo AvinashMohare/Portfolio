@@ -1,8 +1,11 @@
 .rootSearchbar {
+    // height: auto;
+    // width: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    box-shadow: 0 1px 6px transparent;
 
     &.active {
         box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
@@ -11,7 +14,7 @@
 
     .searchbar {
         min-height: 44px;
-        width: 700px;
+        width: 582px;
 
         display: flex;
         flex-direction: row;
@@ -20,6 +23,8 @@
 
         border: 1px solid #dfe1e5;
         border-radius: 24px;
+        box-shadow: transparent 0px 5px 15px;
+
         // box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
         .searchIcon {
@@ -71,8 +76,8 @@
 
         &.inactive {
             &:hover {
-                border: none;
-                box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 15px;
+                border: 1px solid transparent;
+                box-shadow: rgba(0, 0, 0, 0.18) 0px 0px 8px;
 
                 .dropdown {
                     display: block;
@@ -89,7 +94,7 @@
 
     .dropdown {
         height: fit-content;
-        width: 700px;
+        width: 582px;
         display: flex;
         flex-direction: column;
         background-color: #ffffff;
@@ -102,30 +107,37 @@
         }
 
         .dropdownContainer {
-            display: flex;
-            flex-direction: row;
-            // justify-items: ;
-            align-items: center;
-
-            .clock {
+            a {
                 display: flex;
+                flex-direction: row;
+                // justify-items: ;
                 align-items: center;
-                justify-content: center;
-                // padding-top: 9px;
-                padding-left: 19px;
-            }
-            .dropdownRow {
-                text-transform: lowercase;
-                font-size: 16px;
-                font-family: arial, sans-serif;
-                // padding: 5px 0px 3px 22px;
-                padding: 8px 22px;
-                color: #52188c;
-            }
+                text-decoration: none;
 
-            &:hover {
-                background-color: rgb(242, 245, 245);
+                .clock {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    // padding-top: 9px;
+                    padding-left: 19px;
+                }
+                .dropdownRow {
+                    text-transform: lowercase;
+                    font-size: 16px;
+                    font-family: arial, sans-serif;
+                    // padding: 5px 0px 3px 22px;
+                    padding: 8px 22px;
+                    color: #52188c;
+                }
+
+                &:hover {
+                    background-color: rgb(242, 245, 245);
+                }
             }
         }
+    }
+
+    .HomeButtons {
+        padding-top: 14px;
     }
 }

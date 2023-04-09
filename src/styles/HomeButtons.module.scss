@@ -1,0 +1,61 @@
+.rootButtons {
+    // position: fixed;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 582px;
+    height: 58px;
+    // padding: ;
+
+    .b1 {
+        border: 1px solid #f8f9fa;
+
+        // position: fixed;
+        background-color: #f8f9fa;
+        border-radius: 4px;
+        // box-shadow: none;
+        box-shadow: 0 1px 1px transparent;
+
+        // height: 36px;
+        // min-width: 54px;
+        p {
+            font-family: Arial, sans-serif;
+
+            font-size: 14px;
+            margin: 11px 4px;
+            padding: 0px 16px;
+            color: #3c4043;
+        }
+
+        &:hover {
+            border: 1px solid #dadce0;
+            box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+        }
+    }
+
+    .b2 {
+        border: 1px solid #f8f9fa;
+
+        // position: relative;
+        // left: 150px;
+        background-color: #f8f9fa;
+        box-shadow: 0 1px 1px transparent;
+        border-radius: 4px;
+        margin-left: 13px;
+        p {
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            color: #3c4043;
+
+            margin: 11px 4px;
+            padding: 0px 16px;
+        }
+
+        &:hover {
+            border: 1px solid #dadce0;
+            box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+        }
+    }
+}

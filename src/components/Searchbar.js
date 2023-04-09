@@ -1,15 +1,19 @@
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
+
+import Link from "next/link";
 
 import classes from "../styles/Searchbar.module.scss";
 import Search from "@/Assets/svg/svg_components/Search";
 import Voice from "@/Assets/svg/svg_components/Voice";
 import Camera from "@/Assets/svg/svg_components/Camera";
 import Clock from "@/Assets/svg/svg_components/Clock";
+import HomeButtons from "./HomeButtons";
+import { useRouter } from "next/router";
 
 const SearchItems = [
     {
         query: "Want to know more about the person behind this website",
-        link: "page_link",
+        link: "/about",
     },
     {
         query: "Explore my highlights and achievements",
@@ -34,6 +38,10 @@ const SearchItems = [
 ];
 
 const Searchbar = () => {
+    const router = useRouter();
+
+    const inputRef = useRef(null);
+
     const [value, setValue] = useState("");
     const [show, setShow] = useState(false);
 
@@ -41,6 +49,16 @@ const Searchbar = () => {
         setValue(event.target.value);
         console.log(event.target.value);
     };
+
+    useEffect(() => {
+        window.addEventListener("click", (event) => {
+            if (event.target.id !== "_dont_hide_on_clicked_") setShow(false);
+        });
+
+        return () => {
+            window.removeEventListener("click", () => {});
+        };
+    }, []);
 
     return (
         <div
@@ -52,6 +70,10 @@ const Searchbar = () => {
                 className={`${classes.searchbar} ${
                     show ? classes.active : classes.inactive
                 }`}
+                id="_dont_hide_on_clicked_"
+                onClick={() => {
+                    inputRef.current.focus();
+                }}
             >
                 <div className={classes.searchIcon}>
                     <Search />
@@ -59,13 +81,14 @@ const Searchbar = () => {
 
                 <div className={classes.searchInner}>
                     <input
+                        ref={inputRef}
+                        id="_dont_hide_on_clicked_"
                         type="text"
                         value={value}
                         onChange={onChange}
                         onFocus={() => {
                             setShow(true);
                         }}
-                        onBlur={() => setShow(false)}
                         placeholder="Hii I am Avinash "
                     />
                 </div>
@@ -88,24 +111,37 @@ const Searchbar = () => {
                         }`}
                     >
                         {SearchItems.map((item, index) => {
+                            console.log(item.link);
                             return (
                                 <div className={classes.dropdownContainer}>
-                                    <div className={classes.clock}>
-                                        <Clock />
-                                    </div>
-
-                                    <p
-                                        className={classes.dropdownRow}
-                                        key={index}
+                                    <Link
+                                        id="_dont_hide_on_clicked_"
+                                        href={item.link}
+                                        onClick={() => {
+                                            setShow(true);
+                                            return router.push(item.link);
+                                        }}
                                     >
-                                        {item.query}
-                                    </p>
+                                        <div className={classes.clock}>
+                                            <Clock />
+                                        </div>
+
+                                        <p
+                                            className={classes.dropdownRow}
+                                            key={index}
+                                        >
+                                            {item.query}
+                                        </p>
+                                    </Link>
                                 </div>
                             );
                         })}
                     </div>
                 </>
             )}
+            <div className={classes.HomeButtons}>
+                <HomeButtons />
+            </div>
         </div>
     );
 };
