@@ -16,23 +16,33 @@
         // width: 500px;
 
         .info {
+            vertical-align: baseline;
             margin-bottom: 30px;
             .heading {
-                font-size: 12px;
+                line-height: 12px;
+
+                font-size: 11px;
                 color: #f37b83;
                 letter-spacing: 5px;
                 text-transform: uppercase;
                 font-family: Poppins, sans-serif;
-                padding-bottom: 5px;
-                font-weight: 400;
+                // padding-bottom: 5px;
+                font-weight: 500;
             }
 
             .answer {
+                line-height: 30px;
+
                 color: #faefff;
                 font-family: "Poppins", sans-serif;
                 font-size: 15px;
-                font-weight: 400;
+                font-weight: 500;
             }
         }
+    }
+
+    .sign {
+        padding: 10px 0 30px 55px;
+        // overflow: hidden;
     }
 }

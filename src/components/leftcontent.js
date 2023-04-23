@@ -1,6 +1,8 @@
 import React from "react";
 
+import Image from "next/image";
 import classes from "../styles/LeftContent.module.scss";
+import sign from "../Assets/images/Avinash_sign_BG_removed.png";
 
 const LeftContent = () => {
     return (
@@ -22,6 +24,15 @@ const LeftContent = () => {
                     <p className={classes.heading}>Phone</p>
                     <p className={classes.answer}>8003780822</p>
                 </div>
+            </div>
+
+            <div className={classes.sign}>
+                <Image
+                    src={sign}
+                    alt="My Signature"
+                    height="100px"
+                    width="100px"
+                />
             </div>
         </div>
     );
