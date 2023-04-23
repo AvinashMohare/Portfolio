@@ -13,7 +13,7 @@ import { useRouter } from "next/router";
 const SearchItems = [
     {
         query: "Want to know more about the person behind this website",
-        link: "/about",
+        link: "/portfolio",
     },
     {
         query: "Explore my highlights and achievements",
