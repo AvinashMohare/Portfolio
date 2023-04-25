@@ -38,6 +38,10 @@ const About = () => {
                     forward to hearing from you!"
                 </p>
             </div>
+
+            <div className={classes.button}>
+                <p>Download CV</p>
+            </div>
         </div>
     );
 };

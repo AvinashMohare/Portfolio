@@ -1,0 +1,19 @@
+.rootProjects {
+    max-width: 1050px;
+    // height: 100vh;
+    // background-color: aqua;
+    height: fit-content;
+
+    margin: 80px 0 0 58px;
+
+    .heading {
+        p {
+            // color: #f37b83;
+            color: #f37b83;
+            font-size: 28px;
+            font-weight: 700;
+            line-height: 42px;
+            margin-bottom: 30px;
+        }
+    }
+}
