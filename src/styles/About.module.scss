@@ -1,0 +1,26 @@
+.rootAbout {
+    max-width: 1050px;
+    // background-color: red;
+
+    margin: 80px 0 0 58px;
+
+    .heading {
+        // color: #f37b83;
+        color: #f37b83;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 42px;
+        margin-bottom: 30px;
+    }
+
+    .content {
+        p {
+            font-family: "Poppins", sans-serif;
+            font-size: 15px;
+            line-height: 30px;
+            font-weight: 400;
+            color: #a88590;
+            margin-bottom: 10px;
+        }
+    }
+}

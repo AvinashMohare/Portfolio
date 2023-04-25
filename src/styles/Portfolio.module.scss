@@ -1,8 +1,11 @@
 .rootPortfolio {
+    margin: auto;
+
     display: flex;
     flex-direction: row;
     background-color: #302729;
     // max-width: 99vw;
+    padding-bottom: 100px;
 
     .LeftContent {
         position: fixed;
@@ -12,6 +15,5 @@
         position: relative;
         left: 320px;
         // width: calc(100vw - 320px);
-        height: 400vh;
     }
 }

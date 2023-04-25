@@ -1,12 +1,13 @@
-@font-face {
-    font-family: "Product Sans Bold";
+/* @font-face {
+    font-family: "Poppins", sans-serif;
     src: url("../Assets/fonts/Product\ Sans\ Bold.ttf");
-}
+} */
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 
 /* :root {
