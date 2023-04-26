@@ -15,7 +15,7 @@ const ProjectsList = [
         Svg: Svg1,
     },
     {
-        title: "Portfolio",
+        title: "Befikra Website",
         desc: "A full stack allaround designer that may or may not include a guide for specific creative people",
         Svg: Svg1,
     },
