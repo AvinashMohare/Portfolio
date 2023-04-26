@@ -1,39 +1,42 @@
 import classes from "../styles/Projects.module.scss";
 
 import { default as Svg1 } from "../Assets/svg/svg_components/Clock";
+import { default as Globe } from "../Assets/svg/svg_components/Globe";
+import { default as Android } from "../Assets/svg/svg_components/Android";
+import { default as Robot } from "../Assets/svg/svg_components/Robot";
 
 const ProjectsList = [
     {
         title: "AI Odyssey",
         desc: "A full stack allaround designer that may or may not include a guide for specific creative people",
-        Svg: Svg1,
+        Svg: Globe,
     },
 
     {
         title: "Sukrishak",
         desc: "A full stack allaround designer that may or may not include a guide for specific creative people",
-        Svg: Svg1,
+        Svg: Android,
     },
     {
         title: "Befikra Website",
         desc: "A full stack allaround designer that may or may not include a guide for specific creative people",
-        Svg: Svg1,
+        Svg: Globe,
     },
     {
-        title: "AI Odyssey",
+        title: "FinAnalytix",
         desc: "A full stack allaround designer that may or may not include a guide for specific creative people",
-        Svg: Svg1,
+        Svg: Robot,
     },
 
     {
-        title: "Sukrishak",
+        title: "MoodSnap",
         desc: "A full stack allaround designer that may or may not include a guide for specific creative people",
-        Svg: Svg1,
+        Svg: Robot,
     },
     {
-        title: "Portfolio",
+        title: "OrangeHacks",
         desc: "A full stack allaround designer that may or may not include a guide for specific creative people",
-        Svg: Svg1,
+        Svg: Globe,
     },
 ];
 

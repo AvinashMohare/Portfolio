@@ -2,10 +2,11 @@ Done
 
 1. Landing 
 2. About
+3. skills
+4. Projects
 
 Remaining
 
-1. skills
-2. Projects
-3. Achievements
-4. Get in Touch
+
+1. Achievements
+2. Get in Touch
