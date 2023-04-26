@@ -3,6 +3,7 @@ import Landing from "@/components/landing";
 import LeftContent from "@/components/leftcontent";
 import classes from "../styles/Portfolio.module.scss";
 import About from "@/components/about";
+import Skills from "@/components/skills";
 import Projects from "@/components/projects";
 
 const Portfolio = () => {
@@ -18,6 +19,7 @@ const Portfolio = () => {
                 <div className={classes.content}>
                     <Landing />
                     <About />
+                    <Skills />
                     <Projects />
                 </div>
             </div>

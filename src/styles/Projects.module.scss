@@ -35,6 +35,9 @@
                 margin-left: 25px;
                 margin-bottom: 25px;
 
+                cursor: pointer;
+                transition: all 0.2s linear;
+
                 &:first-child {
                     margin-left: 0px;
                 }
@@ -72,6 +75,10 @@
                         color: #a88590;
                         margin-top: 10px;
                     }
+                }
+
+                &:hover {
+                    transform: scale(1.04);
                 }
             }
         }

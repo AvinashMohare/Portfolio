@@ -1,39 +1,39 @@
 import classes from "../styles/Projects.module.scss";
 
-import { ReactComponent as Svg1 } from "../Assets/svg/clock.svg";
+import { default as Svg1 } from "../Assets/svg/svg_components/Clock";
 
 const ProjectsList = [
     {
         title: "AI Odyssey",
         desc: "A full stack allaround designer that may or may not include a guide for specific creative people",
-        // svg: <Svg1 />,
+        Svg: Svg1,
     },
 
     {
         title: "Sukrishak",
         desc: "A full stack allaround designer that may or may not include a guide for specific creative people",
-        // svg: <Svg1 />,
+        Svg: Svg1,
     },
     {
         title: "Portfolio",
         desc: "A full stack allaround designer that may or may not include a guide for specific creative people",
-        // svg: <Svg1 />,
+        Svg: Svg1,
     },
     {
         title: "AI Odyssey",
         desc: "A full stack allaround designer that may or may not include a guide for specific creative people",
-        // svg: <Svg1 />,
+        Svg: Svg1,
     },
 
     {
         title: "Sukrishak",
         desc: "A full stack allaround designer that may or may not include a guide for specific creative people",
-        // svg: <Svg1 />,
+        Svg: Svg1,
     },
     {
         title: "Portfolio",
         desc: "A full stack allaround designer that may or may not include a guide for specific creative people",
-        // svg: <Svg1 />,
+        Svg: Svg1,
     },
 ];
 
@@ -46,22 +46,21 @@ const Projects = () => {
 
             <div className={classes.content}>
                 <div className={classes.cards}>
-                    {ProjectsList.map((projects) => {
-                        console.log(projects.color);
+                    {ProjectsList.map((Projects) => {
                         return (
                             <>
                                 <div className={classes.projectCard}>
                                     <div className={classes.logo}>
-                                        {projects.svg}
+                                        <Projects.Svg />
                                     </div>
 
                                     <div className={classes.Cardcontent}>
                                         <p className={classes.title}>
-                                            {projects.title}
+                                            {Projects.title}
                                         </p>
 
                                         <p className={classes.desc}>
-                                            {projects.desc}
+                                            {Projects.desc}
                                         </p>
                                     </div>
                                 </div>
