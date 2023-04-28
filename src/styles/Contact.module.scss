@@ -79,6 +79,121 @@
             height: 100%;
             width: 50%;
             background-color: #f37b83;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .rootform {
+                // margin: auto;
+
+                height: 80%;
+                width: 80%;
+                // background-color: red;
+
+                form {
+                    height: 100%;
+                    width: 100%;
+                    // background-color: aqua;
+
+                    .formInputP {
+                        .formInput {
+                            // font-size: 22px;
+                            // color: white;
+                            // border: none;
+                            // background-color: transparent;
+                            border: 0;
+                            border-bottom: 2px solid #fff;
+                            padding-top: 13px;
+                            padding-bottom: 13px;
+                            margin: 10px 0;
+                            height: 28px;
+                            font-size: 14px;
+                            font-family: "Poppins", sans-serif;
+                            width: 100%;
+                            line-height: 25px;
+                            background-color: transparent;
+                            color: white;
+
+                            &::placeholder {
+                                color: #fff;
+                            }
+                            &:focus {
+                                // background-color: #f2f2f2;
+                                outline: none;
+                                // border: 0px solid transparent;
+                            }
+                            &:focus::placeholder {
+                                // display: none;
+                                opacity: 0;
+                            }
+                        }
+
+                        // .contactSubmitHandler {
+                        //     background-color: aqua;
+                        //     .button {
+                        //         border: 2px solid white;
+                        //     }
+                        // }
+                    }
+
+                    .formM {
+                        .formMessage {
+                            // border: none;
+                            // background-color: red;
+                            border: 0;
+                            border-bottom: 2px solid #fff;
+                            padding-top: 13px;
+                            padding-bottom: 13px;
+                            margin: 10px 0;
+                            height: 150px;
+                            font-size: 14px;
+                            font-family: "Poppins", sans-serif;
+                            width: 100%;
+                            line-height: 25px;
+                            background-color: transparent;
+                            color: white;
+
+                            &::placeholder {
+                                color: #fff;
+                            }
+
+                            &:focus {
+                                outline: none;
+                            }
+
+                            &:focus::placeholder {
+                                // display: none;
+                                opacity: 0;
+                            }
+                        }
+                    }
+
+                    .contactSubmitHolder {
+                        .button {
+                            cursor: pointer;
+
+                            // border: 0;
+                            border: 2px solid #fff;
+                            padding-top: 15px;
+                            padding-bottom: 13px;
+                            margin: 10px 0;
+                            height: 64px;
+                            font-size: 14px;
+                            font-family: "Poppins", sans-serif;
+                            width: 100%;
+                            line-height: 25px;
+                            background-color: transparent;
+                            color: white;
+                            font-weight: 700;
+                            letter-spacing: 5px;
+
+                            &::placeholder {
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }

@@ -70,7 +70,54 @@ const Contact = () => {
                             </div>
                         </div>
                     </div>
-                    <div className={classes.formDesign}></div>
+                    <div className={classes.formDesign}>
+                        <div className={classes.rootform}>
+                            <form>
+                                <p className={classes.formInputP}>
+                                    <input
+                                        className={classes.formInput}
+                                        id="name"
+                                        type="text"
+                                        name="your-name"
+                                        placeholder="Name"
+                                    />
+                                </p>
+                                <p className={classes.formInputP}>
+                                    <input
+                                        className={classes.formInput}
+                                        id="contact-email"
+                                        type="email"
+                                        name="your-email"
+                                        placeholder="Email"
+                                    />
+                                </p>
+                                <p className={classes.formInputP}>
+                                    <input
+                                        className={classes.formInput}
+                                        id="subject"
+                                        type="text"
+                                        name="your-subject"
+                                        placeholder="Subject"
+                                    />
+                                </p>
+                                <p className={classes.formM}>
+                                    <textarea
+                                        className={classes.formMessage}
+                                        id="message"
+                                        name="your-message"
+                                        placeholder="Message"
+                                    ></textarea>
+                                </p>
+                                <p className={classes.contactSubmitHolder}>
+                                    <input
+                                        className={classes.button}
+                                        type="submit"
+                                        value="SEND"
+                                    />
+                                </p>
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

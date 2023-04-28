@@ -15,15 +15,17 @@ const LeftContent = () => {
 
     return (
         <div className={classes.rootLeftContent}>
+            <div className={classes.safe} onClick={showHandler}>
+                <Hamburger active={active} />
+            </div>
+
             <div
-                className={active ? classes.activerootMenu : classes.rootMenu}
+                className={`${classes.slidingMenu} ${
+                    active ? classes.activerootMenu : classes.rootMenu
+                }`}
             ></div>
 
             <div className={classes.alwaysDisplay}>
-                <div className={classes.safe} onClick={showHandler}>
-                    <Hamburger active={active} />
-                </div>
-
                 <div className={classes.content}>
                     <div className={classes.info}>
                         <p className={classes.heading}>Name</p>
