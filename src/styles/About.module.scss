@@ -6,11 +6,13 @@
 
     .heading {
         // color: #f37b83;
-        color: #f37b83;
-        font-size: 28px;
-        font-weight: 700;
-        line-height: 42px;
-        margin-bottom: 30px;
+        p {
+            color: #f37b83;
+            font-size: 30px;
+            font-weight: 700;
+            line-height: 42px;
+            margin-bottom: 30px;
+        }
     }
 
     .content {

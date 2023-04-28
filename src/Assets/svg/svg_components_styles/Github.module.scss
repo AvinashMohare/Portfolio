@@ -1,0 +1,16 @@
+.Github {
+    height: 31px;
+    width: 31px;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+
+    g {
+        g {
+            fill: #a88590;
+        }
+    }
+
+    &:hover {
+        transform: scale(1.1);
+    }
+}
