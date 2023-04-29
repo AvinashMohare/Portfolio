@@ -3,6 +3,11 @@
     src: url("../Assets/fonts/Product\ Sans\ Bold.ttf");
 } */
 
+@font-face {
+    font-family: "Product Sans Bold";
+    src: url("../Assets/fonts/Product\ Sans\ Bold.ttf");
+}
+
 * {
     padding: 0;
     margin: 0;
