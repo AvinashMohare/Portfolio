@@ -10,7 +10,9 @@ const Contact = () => {
         <div className={classes.rootContact} id="contact">
             <div className={classes.heading}>
                 <p>Get in Touch</p>
+            </div>
 
+            <div className={classes.contentContainer}>
                 <div className={classes.content}>
                     <div className={classes.info}>
                         <p className={classes.p1}>
@@ -72,9 +74,10 @@ const Contact = () => {
                             </div>
                         </div>
                     </div>
-                    <div className={classes.form}>
-                        <ContactForm />
-                    </div>
+                </div>
+
+                <div className={classes.form}>
+                    <ContactForm />
                 </div>
             </div>
         </div>

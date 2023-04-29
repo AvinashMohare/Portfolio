@@ -130,3 +130,1166 @@
         // background-repeat: no-repeat;
     }
 }
+
+@media screen and (max-width: 1512px) {
+    .rootLanding {
+        display: flex;
+        flex-direction: row;
+        // max-width: 100vw;
+        width: 100%;
+
+        .center {
+            z-index: 1000;
+            min-height: fit-content;
+            width: 45%;
+            background-color: #f9f0ff;
+
+            .contentContainer {
+                margin-left: 40px;
+                margin-right: 40px;
+                // margin-top: 50px;
+                padding-top: 110px;
+                overflow: hidden;
+
+                // align-items: center;
+
+                .tagline {
+                    // padding: 50px;
+                    font-family: "Poppins", sans-serif;
+                    font-size: 29px;
+                    color: #492d31;
+                    margin-bottom: 0px;
+                }
+
+                .fname {
+                    font-family: "Poppins", sans-serif;
+
+                    font-size: 85px;
+                    line-height: 94px;
+                    font-weight: 800;
+                    color: #f37b83;
+                    padding: 20px 0 0 0;
+                }
+
+                .lname {
+                    font-family: "Poppins", sans-serif;
+
+                    font-size: 85px;
+                    line-height: 94px;
+                    font-weight: 800;
+                    color: #f37b83;
+                    padding: 0px 0 20px 0;
+                }
+
+                .bio {
+                    width: 90%;
+                    font-family: "Poppins", sans-serif;
+                    font-size: 15px;
+                    line-height: 28px;
+                    font-weight: 400;
+                    color: #a88590;
+                    margin: 20px 0 30px 0;
+                    // align-items: center;
+                    justify-content: center;
+
+                    // text-align: justify;
+                }
+
+                .Ids {
+                    display: flex;
+                    flex-direction: row;
+                    margin-top: 35px;
+
+                    .linkedin {
+                        font-size: 12px;
+                        margin: 0 30px 0 0;
+                        letter-spacing: 4px;
+                    }
+
+                    .twitter {
+                        font-size: 12px;
+                        margin: 0 30px 0 0;
+                        letter-spacing: 4px;
+                    }
+
+                    .instagram {
+                        font-size: 12px;
+                        margin: 0 30px 0 0;
+                        letter-spacing: 4px;
+                    }
+                }
+            }
+        }
+
+        .right {
+            // height: 100vh;
+            // width: 400px;
+            border: none;
+            // left: 50px;
+
+            // border: ;
+            height: 100vh;
+            // width: 700px;
+            width: 55%;
+            background-image: url("https://media.licdn.com/dms/image/D4D03AQEuERGV8YqRrw/profile-displayphoto-shrink_400_400/0/1680588569235?e=1687996800&v=beta&t=Q6iwXHT0c271aJJ98CQ6wr91pB9M3JJ8HUg6xL-2OnI");
+            background-size: cover;
+            // background-color: red;
+            // background-repeat: no-repeat;
+        }
+    }
+}
+
+@media screen and (max-width: 1310px) {
+    .rootLanding {
+        display: flex;
+        flex-direction: row;
+        // max-width: 100vw;
+        width: 100%;
+
+        .center {
+            z-index: 1000;
+            min-height: fit-content;
+            width: 45%;
+            background-color: #f9f0ff;
+
+            .contentContainer {
+                margin-left: 40px;
+                margin-right: 10px;
+                // margin-top: 50px;
+                padding-top: 110px;
+                overflow: hidden;
+
+                // align-items: center;
+
+                .tagline {
+                    // padding: 50px;
+                    font-family: "Poppins", sans-serif;
+                    font-size: 22px;
+                    color: #492d31;
+                    margin-bottom: 0px;
+                }
+
+                .fname {
+                    font-family: "Poppins", sans-serif;
+
+                    font-size: 75px;
+                    line-height: 94px;
+                    font-weight: 800;
+                    color: #f37b83;
+                    padding: 20px 0 0 0;
+                }
+
+                .lname {
+                    font-family: "Poppins", sans-serif;
+
+                    font-size: 75px;
+                    line-height: 94px;
+                    font-weight: 800;
+                    color: #f37b83;
+                    padding: 0px 0 20px 0;
+                }
+
+                .bio {
+                    width: 90%;
+                    font-family: "Poppins", sans-serif;
+                    font-size: 14px;
+                    line-height: 28px;
+                    font-weight: 400;
+                    color: #a88590;
+                    margin: 20px 0 30px 0;
+                    // align-items: center;
+                    justify-content: center;
+
+                    // text-align: justify;
+                }
+
+                .Ids {
+                    display: flex;
+                    flex-direction: row;
+                    margin-top: 35px;
+
+                    .linkedin {
+                        font-size: 12px;
+                        margin: 0 30px 0 0;
+                        letter-spacing: 4px;
+                    }
+
+                    .twitter {
+                        font-size: 12px;
+                        margin: 0 30px 0 0;
+                        letter-spacing: 4px;
+                    }
+
+                    .instagram {
+                        font-size: 12px;
+                        margin: 0 30px 0 0;
+                        letter-spacing: 4px;
+                    }
+                }
+            }
+        }
+
+        .right {
+            // height: 100vh;
+            // width: 400px;
+            border: none;
+            // left: 50px;
+
+            // border: ;
+            height: 100vh;
+            // width: 700px;
+            width: 55%;
+            background-image: url("https://media.licdn.com/dms/image/D4D03AQEuERGV8YqRrw/profile-displayphoto-shrink_400_400/0/1680588569235?e=1687996800&v=beta&t=Q6iwXHT0c271aJJ98CQ6wr91pB9M3JJ8HUg6xL-2OnI");
+            background-size: cover;
+            // background-color: red;
+            // background-repeat: no-repeat;
+        }
+    }
+}
+
+@media screen and (max-width: 1246px) {
+    .rootLanding {
+        display: flex;
+        flex-direction: row;
+        // max-width: 100vw;
+        width: 100%;
+
+        .center {
+            z-index: 1000;
+            min-height: fit-content;
+            width: 45%;
+            background-color: #f9f0ff;
+
+            .contentContainer {
+                margin-left: 40px;
+                margin-right: 10px;
+                // margin-top: 50px;
+                padding-top: 110px;
+                overflow: hidden;
+
+                // align-items: center;
+
+                .tagline {
+                    // padding: 50px;
+                    font-family: "Poppins", sans-serif;
+                    font-size: 22px;
+                    color: #492d31;
+                    margin-bottom: 0px;
+                }
+
+                .fname {
+                    font-family: "Poppins", sans-serif;
+
+                    font-size: 75px;
+                    line-height: 94px;
+                    font-weight: 800;
+                    color: #f37b83;
+                    padding: 20px 0 0 0;
+                }
+
+                .lname {
+                    font-family: "Poppins", sans-serif;
+
+                    font-size: 75px;
+                    line-height: 94px;
+                    font-weight: 800;
+                    color: #f37b83;
+                    padding: 0px 0 20px 0;
+                }
+
+                .bio {
+                    width: 90%;
+                    font-family: "Poppins", sans-serif;
+                    font-size: 14px;
+                    line-height: 28px;
+                    font-weight: 400;
+                    color: #a88590;
+                    margin: 20px 0 30px 0;
+                    // align-items: center;
+                    justify-content: center;
+
+                    // text-align: justify;
+                }
+
+                .Ids {
+                    display: flex;
+                    flex-direction: row;
+                    margin-top: 35px;
+
+                    .linkedin {
+                        font-size: 12px;
+                        margin: 0 30px 0 0;
+                        letter-spacing: 4px;
+                    }
+
+                    .twitter {
+                        font-size: 12px;
+                        margin: 0 30px 0 0;
+                        letter-spacing: 4px;
+                    }
+
+                    .instagram {
+                        font-size: 12px;
+                        margin: 0 30px 0 0;
+                        letter-spacing: 4px;
+                    }
+                }
+            }
+        }
+
+        .right {
+            // height: 100vh;
+            // width: 400px;
+            border: none;
+            // left: 50px;
+
+            // border: ;
+            height: 100vh;
+            // width: 700px;
+            width: 55%;
+            background-image: url("https://media.licdn.com/dms/image/D4D03AQEuERGV8YqRrw/profile-displayphoto-shrink_400_400/0/1680588569235?e=1687996800&v=beta&t=Q6iwXHT0c271aJJ98CQ6wr91pB9M3JJ8HUg6xL-2OnI");
+            background-size: cover;
+            // background-color: red;
+            // background-repeat: no-repeat;
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .rootLanding {
+        .center {
+            z-index: 1000;
+            min-height: fit-content;
+            width: 45%;
+            background-color: #f9f0ff;
+
+            .contentContainer {
+                margin-left: 40px;
+                margin-right: 10px;
+                // margin-top: 50px;
+                padding-top: 110px;
+                overflow: hidden;
+
+                // align-items: center;
+
+                .tagline {
+                    // padding: 50px;
+                    font-family: "Poppins", sans-serif;
+                    font-size: 22px;
+                    color: #492d31;
+                    margin-bottom: 0px;
+                }
+
+                .fname {
+                    font-family: "Poppins", sans-serif;
+
+                    font-size: 75px;
+                    line-height: 94px;
+                    font-weight: 800;
+                    color: #f37b83;
+                    padding: 20px 0 0 0;
+                }
+
+                .lname {
+                    font-family: "Poppins", sans-serif;
+
+                    font-size: 75px;
+                    line-height: 94px;
+                    font-weight: 800;
+                    color: #f37b83;
+                    padding: 0px 0 20px 0;
+                }
+
+                .bio {
+                    width: 90%;
+                    font-family: "Poppins", sans-serif;
+                    font-size: 14px;
+                    line-height: 28px;
+                    font-weight: 400;
+                    color: #a88590;
+                    margin: 20px 0 30px 0;
+                    // align-items: center;
+                    justify-content: center;
+
+                    // text-align: justify;
+                }
+
+                .Ids {
+                    display: flex;
+                    flex-direction: row;
+                    margin-top: 70px;
+
+                    .linkedin {
+                        font-size: 12px;
+                        margin: 0 30px 0 0;
+                        letter-spacing: 4px;
+                    }
+
+                    .twitter {
+                        font-size: 12px;
+                        margin: 0 30px 0 0;
+                        letter-spacing: 4px;
+                    }
+
+                    .instagram {
+                        font-size: 12px;
+                        margin: 0 30px 0 0;
+                        letter-spacing: 4px;
+                    }
+                }
+            }
+        }
+
+        .right {
+            // height: 100vh;
+            // width: 400px;
+            border: none;
+            // left: 50px;
+
+            // border: ;
+            height: 100vh;
+            // width: 700px;
+            width: 55%;
+            background-image: url("https://media.licdn.com/dms/image/D4D03AQEuERGV8YqRrw/profile-displayphoto-shrink_400_400/0/1680588569235?e=1687996800&v=beta&t=Q6iwXHT0c271aJJ98CQ6wr91pB9M3JJ8HUg6xL-2OnI");
+            background-size: cover;
+            // background-color: red;
+            // background-repeat: no-repeat;
+        }
+    }
+}
+
+@media screen and (max-width: 1028px) {
+    .rootLanding {
+        .center {
+            z-index: 1000;
+            min-height: fit-content;
+            width: 50%;
+            background-color: #f9f0ff;
+
+            .contentContainer {
+                margin-left: 40px;
+                margin-right: 10px;
+                // margin-top: 50px;
+                padding-top: 110px;
+                overflow: hidden;
+
+                // align-items: center;
+
+                .tagline {
+                    // padding: 50px;
+                    font-family: "Poppins", sans-serif;
+                    font-size: 25px;
+                    color: #492d31;
+                    margin-bottom: 0px;
+                }
+
+                .fname {
+                    font-family: "Poppins", sans-serif;
+
+                    font-size: 80px;
+                    line-height: 94px;
+                    font-weight: 800;
+                    color: #f37b83;
+                    padding: 20px 0 0 0;
+                }
+
+                .lname {
+                    font-family: "Poppins", sans-serif;
+
+                    font-size: 80px;
+                    line-height: 94px;
+                    font-weight: 800;
+                    color: #f37b83;
+                    padding: 0px 0 20px 0;
+                }
+
+                .bio {
+                    width: 90%;
+                    font-family: "Poppins", sans-serif;
+                    font-size: 14px;
+                    line-height: 28px;
+                    font-weight: 400;
+                    color: #a88590;
+                    margin: 20px 0 30px 0;
+                    // align-items: center;
+                    justify-content: center;
+
+                    // text-align: justify;
+                }
+
+                .Ids {
+                    display: flex;
+                    flex-direction: row;
+                    margin-top: 50px;
+
+                    .linkedin {
+                        font-size: 12px;
+                        margin: 0 30px 0 0;
+                        letter-spacing: 4px;
+                    }
+
+                    .twitter {
+                        font-size: 12px;
+                        margin: 0 30px 0 0;
+                        letter-spacing: 4px;
+                    }
+
+                    .instagram {
+                        font-size: 12px;
+                        margin: 0 30px 0 0;
+                        letter-spacing: 4px;
+                    }
+                }
+            }
+        }
+
+        .right {
+            // height: 100vh;
+            // width: 400px;
+            border: none;
+            // left: 50px;
+
+            // border: ;
+            height: 100vh;
+            // width: 700px;
+            width: 50%;
+            background-image: url("https://media.licdn.com/dms/image/D4D03AQEuERGV8YqRrw/profile-displayphoto-shrink_400_400/0/1680588569235?e=1687996800&v=beta&t=Q6iwXHT0c271aJJ98CQ6wr91pB9M3JJ8HUg6xL-2OnI");
+            background-size: cover;
+            // background-color: red;
+            // background-repeat: no-repeat;
+        }
+    }
+}
+
+@media screen and (max-width: 837px) {
+    .rootLanding {
+        .center {
+            z-index: 1000;
+            min-height: fit-content;
+            width: 60%;
+            background-color: #f9f0ff;
+
+            .contentContainer {
+                margin-left: 40px;
+                margin-right: 10px;
+                // margin-top: 50px;
+                padding-top: 110px;
+                overflow: hidden;
+
+                // align-items: center;
+
+                .tagline {
+                    // padding: 50px;
+                    font-family: "Poppins", sans-serif;
+                    font-size: 25px;
+                    color: #492d31;
+                    margin-bottom: 0px;
+                }
+
+                .fname {
+                    font-family: "Poppins", sans-serif;
+
+                    font-size: 80px;
+                    line-height: 94px;
+                    font-weight: 800;
+                    color: #f37b83;
+                    padding: 20px 0 0 0;
+                }
+
+                .lname {
+                    font-family: "Poppins", sans-serif;
+
+                    font-size: 80px;
+                    line-height: 94px;
+                    font-weight: 800;
+                    color: #f37b83;
+                    padding: 0px 0 20px 0;
+                }
+
+                .bio {
+                    width: 90%;
+                    font-family: "Poppins", sans-serif;
+                    font-size: 14px;
+                    line-height: 28px;
+                    font-weight: 400;
+                    color: #a88590;
+                    margin: 20px 0 30px 0;
+                    // align-items: center;
+                    justify-content: center;
+
+                    // text-align: justify;
+                }
+
+                .Ids {
+                    display: flex;
+                    flex-direction: row;
+                    margin-top: 50px;
+
+                    .linkedin {
+                        font-size: 12px;
+                        margin: 0 30px 0 0;
+                        letter-spacing: 4px;
+                    }
+
+                    .twitter {
+                        font-size: 12px;
+                        margin: 0 30px 0 0;
+                        letter-spacing: 4px;
+                    }
+
+                    .instagram {
+                        font-size: 12px;
+                        margin: 0 30px 0 0;
+                        letter-spacing: 4px;
+                    }
+                }
+            }
+        }
+
+        .right {
+            // height: 100vh;
+            // width: 400px;
+            border: none;
+            // left: 50px;
+
+            // border: ;
+            height: 100vh;
+            // width: 700px;
+            width: 50%;
+            background-image: url("https://media.licdn.com/dms/image/D4D03AQEuERGV8YqRrw/profile-displayphoto-shrink_400_400/0/1680588569235?e=1687996800&v=beta&t=Q6iwXHT0c271aJJ98CQ6wr91pB9M3JJ8HUg6xL-2OnI");
+            background-size: cover;
+            // background-color: red;
+            // background-repeat: no-repeat;
+        }
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .rootLanding {
+        .center {
+            padding-top: 20px;
+            z-index: 1000;
+            height: fit-content;
+            width: 100%;
+            background-color: #f9f0ff;
+
+            .contentContainer {
+                margin-left: 40px;
+                margin-right: 10px;
+                // margin-top: 50px;
+                padding-top: 110px;
+                overflow: hidden;
+
+                // align-items: center;
+
+                .tagline {
+                    // padding: 50px;
+                    font-family: "Poppins", sans-serif;
+                    font-size: 25px;
+                    color: #492d31;
+                    margin-bottom: 0px;
+                }
+
+                .fname {
+                    font-family: "Poppins", sans-serif;
+
+                    font-size: 80px;
+                    line-height: 94px;
+                    font-weight: 800;
+                    color: #f37b83;
+                    padding: 20px 0 0 0;
+                }
+
+                .lname {
+                    font-family: "Poppins", sans-serif;
+
+                    font-size: 80px;
+                    line-height: 94px;
+                    font-weight: 800;
+                    color: #f37b83;
+                    padding: 0px 0 20px 0;
+                }
+
+                .bio {
+                    width: 90%;
+                    font-family: "Poppins", sans-serif;
+                    font-size: 14px;
+                    line-height: 28px;
+                    font-weight: 400;
+                    color: #a88590;
+                    margin: 20px 0 30px 0;
+                    // align-items: center;
+                    justify-content: center;
+
+                    // text-align: justify;
+                }
+
+                .Ids {
+                    display: flex;
+                    flex-direction: row;
+                    margin-top: 50px;
+                    padding-bottom: 30px;
+
+                    .linkedin {
+                        font-size: 12px;
+                        margin: 0 30px 0 0;
+                        letter-spacing: 4px;
+                    }
+
+                    .twitter {
+                        font-size: 12px;
+                        margin: 0 30px 0 0;
+                        letter-spacing: 4px;
+                    }
+
+                    .instagram {
+                        font-size: 12px;
+                        margin: 0 30px 0 0;
+                        letter-spacing: 4px;
+                    }
+                }
+            }
+        }
+
+        .right {
+            // display: none;
+            // height: 100vh;
+            // width: 400px;
+            border: none;
+            // left: 50px;
+
+            // border: ;
+            height: 100vh;
+            // width: 700px;
+            width: 0;
+            background-image: url("https://media.licdn.com/dms/image/D4D03AQEuERGV8YqRrw/profile-displayphoto-shrink_400_400/0/1680588569235?e=1687996800&v=beta&t=Q6iwXHT0c271aJJ98CQ6wr91pB9M3JJ8HUg6xL-2OnI");
+            background-size: cover;
+            // background-color: red;
+            // background-repeat: no-repeat;
+        }
+    }
+}
+
+@media screen and (max-width: 602px) {
+    .rootLanding {
+        .center {
+            padding-top: 0px;
+            z-index: 1000;
+            min-height: fit-content;
+            width: 100%;
+            background-color: #f9f0ff;
+
+            .contentContainer {
+                margin-left: 40px;
+                margin-right: 10px;
+                // margin-top: 50px;
+                padding-top: 110px;
+                overflow: hidden;
+
+                // align-items: center;
+
+                .tagline {
+                    // padding: 50px;
+                    font-family: "Poppins", sans-serif;
+                    font-size: 25px;
+                    color: #492d31;
+                    margin-bottom: 0px;
+                }
+
+                .fname {
+                    font-family: "Poppins", sans-serif;
+
+                    font-size: 80px;
+                    line-height: 94px;
+                    font-weight: 800;
+                    color: #f37b83;
+                    padding: 20px 0 0 0;
+                }
+
+                .lname {
+                    font-family: "Poppins", sans-serif;
+
+                    font-size: 80px;
+                    line-height: 94px;
+                    font-weight: 800;
+                    color: #f37b83;
+                    padding: 0px 0 20px 0;
+                }
+
+                .bio {
+                    width: 90%;
+                    font-family: "Poppins", sans-serif;
+                    font-size: 14px;
+                    line-height: 28px;
+                    font-weight: 400;
+                    color: #a88590;
+                    margin: 20px 0 30px 0;
+                    // align-items: center;
+                    justify-content: center;
+
+                    // text-align: justify;
+                }
+
+                .Ids {
+                    display: flex;
+                    flex-direction: row;
+                    margin-top: 50px;
+
+                    .linkedin {
+                        font-size: 12px;
+                        margin: 0 30px 0 0;
+                        letter-spacing: 4px;
+                    }
+
+                    .twitter {
+                        font-size: 12px;
+                        margin: 0 30px 0 0;
+                        letter-spacing: 4px;
+                    }
+
+                    .instagram {
+                        font-size: 12px;
+                        margin: 0 30px 0 0;
+                        letter-spacing: 4px;
+                    }
+                }
+            }
+        }
+
+        .right {
+            // display: none;
+            // height: 100vh;
+            // width: 400px;
+            border: none;
+            // left: 50px;
+
+            // border: ;
+            height: 100vh;
+            // width: 700px;
+            width: 0;
+            background-image: url("https://media.licdn.com/dms/image/D4D03AQEuERGV8YqRrw/profile-displayphoto-shrink_400_400/0/1680588569235?e=1687996800&v=beta&t=Q6iwXHT0c271aJJ98CQ6wr91pB9M3JJ8HUg6xL-2OnI");
+            background-size: cover;
+            // background-color: red;
+            // background-repeat: no-repeat;
+        }
+    }
+}
+
+@media screen and (max-width: 484px) {
+    .rootLanding {
+        .center {
+            padding-top: 0px;
+            z-index: 1000;
+            min-height: fit-content;
+            width: 100%;
+            background-color: #f9f0ff;
+
+            .contentContainer {
+                margin-left: 40px;
+                margin-right: 10px;
+                // margin-top: 50px;
+                padding-top: 110px;
+                overflow: hidden;
+
+                // align-items: center;
+
+                .tagline {
+                    // padding: 50px;
+                    font-family: "Poppins", sans-serif;
+                    font-size: 25px;
+                    color: #492d31;
+                    margin-bottom: 0px;
+                }
+
+                .fname {
+                    font-family: "Poppins", sans-serif;
+
+                    font-size: 80px;
+                    line-height: 94px;
+                    font-weight: 800;
+                    color: #f37b83;
+                    padding: 20px 0 0 0;
+                }
+
+                .lname {
+                    font-family: "Poppins", sans-serif;
+
+                    font-size: 80px;
+                    line-height: 94px;
+                    font-weight: 800;
+                    color: #f37b83;
+                    padding: 0px 0 20px 0;
+                }
+
+                .bio {
+                    width: 90%;
+                    font-family: "Poppins", sans-serif;
+                    font-size: 14px;
+                    line-height: 28px;
+                    font-weight: 400;
+                    color: #a88590;
+                    margin: 10px 0 0 0;
+                    // align-items: center;
+                    justify-content: center;
+
+                    // text-align: justify;
+                }
+
+                .Ids {
+                    display: flex;
+                    flex-direction: row;
+                    margin-top: 50px;
+
+                    .linkedin {
+                        font-size: 12px;
+                        margin: 0 30px 0 0;
+                        letter-spacing: 4px;
+                    }
+
+                    .twitter {
+                        font-size: 12px;
+                        margin: 0 30px 0 0;
+                        letter-spacing: 4px;
+                    }
+
+                    .instagram {
+                        font-size: 12px;
+                        margin: 0 30px 0 0;
+                        letter-spacing: 4px;
+                    }
+                }
+            }
+        }
+
+        .right {
+            // display: none;
+            // height: 100vh;
+            // width: 400px;
+            border: none;
+            // left: 50px;
+
+            // border: ;
+            height: 100vh;
+            // width: 700px;
+            width: 0;
+            background-image: url("https://media.licdn.com/dms/image/D4D03AQEuERGV8YqRrw/profile-displayphoto-shrink_400_400/0/1680588569235?e=1687996800&v=beta&t=Q6iwXHT0c271aJJ98CQ6wr91pB9M3JJ8HUg6xL-2OnI");
+            background-size: cover;
+            // background-color: red;
+            // background-repeat: no-repeat;
+        }
+    }
+}
+
+@media screen and (max-width: 418px) {
+    .rootLanding {
+        .center {
+            padding-top: 0px;
+            z-index: 1000;
+            height: fit-content;
+
+            width: 100%;
+            background-color: #f9f0ff;
+
+            .contentContainer {
+                margin-left: 40px;
+                margin-right: 10px;
+                // margin-top: 50px;
+                padding-top: 100px;
+                overflow: hidden;
+
+                // align-items: center;
+
+                .tagline {
+                    // padding: 50px;
+                    font-family: "Poppins", sans-serif;
+                    font-size: 25px;
+                    color: #492d31;
+                    margin-bottom: 0px;
+                }
+
+                .fname {
+                    font-family: "Poppins", sans-serif;
+
+                    font-size: 70px;
+                    line-height: 90px;
+                    font-weight: 800;
+                    color: #f37b83;
+                    padding: 20px 0 0 0;
+                }
+
+                .lname {
+                    font-family: "Poppins", sans-serif;
+
+                    font-size: 70px;
+                    line-height: 90px;
+                    font-weight: 800;
+                    color: #f37b83;
+                    padding: 0px 0 20px 0;
+                }
+
+                .bio {
+                    width: 90%;
+                    font-family: "Poppins", sans-serif;
+                    font-size: 14px;
+                    line-height: 28px;
+                    font-weight: 400;
+                    color: #a88590;
+                    margin: 10px 0 0 0;
+                    // align-items: center;
+                    justify-content: center;
+
+                    // text-align: justify;
+                }
+
+                .Ids {
+                    display: flex;
+                    flex-direction: row;
+                    margin-top: 50px;
+                    padding-bottom: 20px;
+
+                    .linkedin {
+                        font-size: 12px;
+                        margin: 0 30px 0 0;
+                        letter-spacing: 4px;
+                    }
+
+                    .twitter {
+                        font-size: 12px;
+                        margin: 0 30px 0 0;
+                        letter-spacing: 4px;
+                    }
+
+                    .instagram {
+                        font-size: 12px;
+                        margin: 0 30px 0 0;
+                        letter-spacing: 4px;
+                    }
+                }
+            }
+        }
+
+        .right {
+            // display: none;
+            // height: 100vh;
+            // width: 400px;
+            border: none;
+            // left: 50px;
+
+            // border: ;
+            height: 100vh;
+            // width: 700px;
+            width: 0;
+            background-image: url("https://media.licdn.com/dms/image/D4D03AQEuERGV8YqRrw/profile-displayphoto-shrink_400_400/0/1680588569235?e=1687996800&v=beta&t=Q6iwXHT0c271aJJ98CQ6wr91pB9M3JJ8HUg6xL-2OnI");
+            background-size: cover;
+            // background-color: red;
+            // background-repeat: no-repeat;
+        }
+    }
+}
+
+@media screen and (max-width: 401px) {
+    .rootLanding {
+        .center {
+            padding-top: 0px;
+            z-index: 1000;
+            height: fit-content;
+
+            width: 100%;
+            background-color: #f9f0ff;
+
+            .contentContainer {
+                margin-left: 40px;
+                margin-right: 10px;
+                // margin-top: 50px;
+                padding-top: 100px;
+                overflow: hidden;
+
+                // align-items: center;
+
+                .tagline {
+                    // padding: 50px;
+                    font-family: "Poppins", sans-serif;
+                    font-size: 22px;
+                    color: #492d31;
+                    margin-bottom: 0px;
+                }
+
+                .fname {
+                    font-family: "Poppins", sans-serif;
+
+                    font-size: 65px;
+                    line-height: 80px;
+                    font-weight: 800;
+                    color: #f37b83;
+                    padding: 20px 0 0 0;
+                }
+
+                .lname {
+                    font-family: "Poppins", sans-serif;
+
+                    font-size: 65px;
+                    line-height: 80px;
+                    font-weight: 800;
+                    color: #f37b83;
+                    padding: 0px 0 20px 0;
+                }
+
+                .bio {
+                    width: 90%;
+                    font-family: "Poppins", sans-serif;
+                    font-size: 14px;
+                    line-height: 28px;
+                    font-weight: 400;
+                    color: #a88590;
+                    margin: 10px 0 0 0;
+                    // align-items: center;
+                    justify-content: center;
+
+                    // text-align: justify;
+                }
+
+                .Ids {
+                    display: flex;
+                    flex-direction: row;
+                    margin-top: 50px;
+                    padding-bottom: 20px;
+
+                    .linkedin {
+                        font-size: 12px;
+                        margin: 0 14px 0 0;
+                        letter-spacing: 2px;
+                    }
+
+                    .twitter {
+                        font-size: 12px;
+                        margin: 0 14px 0 0;
+                        letter-spacing: 2px;
+                    }
+
+                    .instagram {
+                        font-size: 12px;
+                        margin: 0 14px 0 0;
+                        letter-spacing: 2px;
+                    }
+                }
+            }
+        }
+
+        .right {
+            // display: none;
+            // height: 100vh;
+            // width: 400px;
+            border: none;
+            // left: 50px;
+
+            // border: ;
+            height: 100vh;
+            // width: 700px;
+            width: 0;
+            background-image: url("https://media.licdn.com/dms/image/D4D03AQEuERGV8YqRrw/profile-displayphoto-shrink_400_400/0/1680588569235?e=1687996800&v=beta&t=Q6iwXHT0c271aJJ98CQ6wr91pB9M3JJ8HUg6xL-2OnI");
+            background-size: cover;
+            // background-color: red;
+            // background-repeat: no-repeat;
+        }
+    }
+}

@@ -1,5 +1,7 @@
 .rootContact {
     margin: 80px 0 0 58px;
+    // display: flex;
+    // flex-direction: row;
 
     .heading {
         font-weight: 700;
@@ -11,72 +13,175 @@
         // margin-bottom: 50px;
     }
 
-    .content {
-        height: 500px;
-        width: 100%;
-        // background-color: red;
+    .contentContainer {
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
-        margin-top: 50px;
+        justify-content: flex-start;
+        // align-items: flex-start;
+        .content {
+            // height: 500px;
+            // width: 100%;
+            width: 50%;
+            // background-color: red;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin-top: 50px;
 
-        .info {
-            padding-right: 70px;
+            .info {
+                padding-right: 70px;
 
-            height: 100%;
-            width: 45%;
-            // background-color: aliceblue;
-            .p1 {
-                font-size: 22px;
-                color: #a88590;
-                font-weight: normal;
-                margin-bottom: 30px;
-                line-height: 35px;
-            }
-
-            .p2 {
-                font-size: 16px;
-                color: #a88590;
-                font-weight: normal;
-                margin-bottom: 30px;
-
-                line-height: 30px;
-            }
-
-            .p3 {
-                font-size: 16px;
-                color: #a88590;
-                font-weight: normal;
-                margin-bottom: 30px;
-
-                line-height: 30px;
-            }
-
-            .socials {
-                p {
-                    font-size: 20px;
+                height: 100%;
+                width: 100%;
+                // background-color: aliceblue;
+                .p1 {
+                    font-size: 22px;
                     color: #a88590;
                     font-weight: normal;
-                    margin-bottom: 15px;
+                    margin-bottom: 30px;
+                    line-height: 35px;
+                }
+
+                .p2 {
+                    font-size: 16px;
+                    color: #a88590;
+                    font-weight: normal;
+                    margin-bottom: 30px;
 
                     line-height: 30px;
                 }
 
-                .svgs {
-                    display: flex;
-                    flex-direction: row;
+                .p3 {
+                    font-size: 16px;
+                    color: #a88590;
+                    font-weight: normal;
+                    margin-bottom: 30px;
 
-                    div {
-                        margin-right: 22px;
+                    line-height: 30px;
+                }
+
+                .socials {
+                    p {
+                        font-size: 20px;
+                        color: #a88590;
+                        font-weight: normal;
+                        margin-bottom: 15px;
+
+                        line-height: 30px;
+                    }
+
+                    .svgs {
+                        display: flex;
+                        flex-direction: row;
+
+                        div {
+                            margin-right: 22px;
+                        }
                     }
                 }
             }
         }
-    }
 
-    .form {
-        height: 100%;
-        width: 50%;
-        background-color: #f37b83;
+        .form {
+            margin-top: 50px;
+            height: 55%;
+            // height: 100%;
+            width: 45%;
+            background-color: #f37b83;
+        }
+    }
+}
+
+@media screen and (max-width: 1260px) {
+    .rootContact {
+        // height: max-content;
+        margin: 80px 0 0 58px;
+
+        // display: flex;
+        // flex-direction: column;
+
+        .heading {
+            font-weight: 700;
+
+            // color: #f37b83;
+            color: #f37b83;
+            font-size: 30px;
+            line-height: 42px;
+            // margin-bottom: 50px;
+        }
+
+        .contentContainer {
+            display: flex;
+            flex-direction: column;
+            .content {
+                height: 400px;
+                width: 100%;
+                // background-color: red;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                margin-top: 50px;
+
+                .info {
+                    padding-right: 70px;
+
+                    max-height: fit-content;
+                    width: 100%;
+                    // background-color: aliceblue;
+                    .p1 {
+                        font-size: 22px;
+                        color: #a88590;
+                        font-weight: normal;
+                        margin-bottom: 20px;
+                        line-height: 35px;
+                    }
+
+                    .p2 {
+                        font-size: 16px;
+                        color: #a88590;
+                        font-weight: normal;
+                        margin-bottom: 20px;
+
+                        line-height: 30px;
+                    }
+
+                    .p3 {
+                        font-size: 16px;
+                        color: #a88590;
+                        font-weight: normal;
+                        margin-bottom: 30px;
+
+                        line-height: 30px;
+                    }
+
+                    .socials {
+                        p {
+                            font-size: 20px;
+                            color: #a88590;
+                            font-weight: normal;
+                            margin-bottom: 15px;
+
+                            line-height: 30px;
+                        }
+
+                        .svgs {
+                            display: flex;
+                            flex-direction: row;
+
+                            div {
+                                margin-right: 22px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .form {
+                // max-height: fit-content;
+                margin-top: 0;
+                width: 95%;
+                background-color: #f37b83;
+            }
+        }
     }
 }

@@ -89,6 +89,7 @@ const Searchbar = () => {
 
                 <div className={classes.searchInner}>
                     <input
+                        readOnly
                         ref={inputRef}
                         id="_dont_hide_on_clicked_"
                         type="text"
