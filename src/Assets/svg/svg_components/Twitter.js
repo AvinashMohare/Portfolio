@@ -1,10 +1,10 @@
 import classes from "../svg_components_styles/Twitter.module.scss";
 
-const Twitter = () => {
+const Twitter = (props) => {
     return (
         <svg
             className={classes.twitter}
-            fill="#000000"
+            fill={props.color}
             xmlns="http://www.w3.org/2000/svg"
             preserveAspectRatio="xMidYMid"
             width="80px"

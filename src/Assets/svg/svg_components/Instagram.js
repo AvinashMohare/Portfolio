@@ -1,6 +1,6 @@
 import classes from "../svg_components_styles/Instagram.module.scss";
 
-const Instagram = () => {
+const Instagram = (props) => {
     return (
         <svg
             className={classes.instagram}
@@ -19,7 +19,7 @@ const Instagram = () => {
                 <g
                     id="Dribbble-Light-Preview"
                     transform="translate(-340.000000, -7439.000000)"
-                    fill="#000000"
+                    fill={props.color}
                 >
                     <g id="icons" transform="translate(56.000000, 160.000000)">
                         <path

@@ -3,6 +3,7 @@ import classes from "../styles/Contact.module.scss";
 import Twitter from "@/Assets/svg/svg_components/Twitter";
 import Linkedin from "@/Assets/svg/svg_components/Linkedin";
 import Github from "@/Assets/svg/svg_components/Github";
+import ContactForm from "./contactForm";
 
 const Contact = () => {
     return (
@@ -48,7 +49,7 @@ const Contact = () => {
                                         href="https://www.instagram.com/avinash_mohare/?igshid=ZDdkNTZiNTM%3D"
                                         target="_blank"
                                     >
-                                        <Instagram />
+                                        <Instagram color="#a88590" />
                                     </a>
                                 </div>
                                 <div>
@@ -56,7 +57,7 @@ const Contact = () => {
                                         href="https://twitter.com/Avinash__Mohare"
                                         target="_blank"
                                     >
-                                        <Twitter />
+                                        <Twitter color="#a88590" />
                                     </a>
                                 </div>
                                 <div>
@@ -64,59 +65,14 @@ const Contact = () => {
                                         href="https://www.linkedin.com/in/avinash-mohare-0277b1203/"
                                         target="_blank"
                                     >
-                                        <Linkedin />
+                                        <Linkedin color="#a88590" />
                                     </a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className={classes.formDesign}>
-                        <div className={classes.rootform}>
-                            <form>
-                                <p className={classes.formInputP}>
-                                    <input
-                                        className={classes.formInput}
-                                        id="name"
-                                        type="text"
-                                        name="your-name"
-                                        placeholder="Name"
-                                    />
-                                </p>
-                                <p className={classes.formInputP}>
-                                    <input
-                                        className={classes.formInput}
-                                        id="contact-email"
-                                        type="email"
-                                        name="your-email"
-                                        placeholder="Email"
-                                    />
-                                </p>
-                                <p className={classes.formInputP}>
-                                    <input
-                                        className={classes.formInput}
-                                        id="subject"
-                                        type="text"
-                                        name="your-subject"
-                                        placeholder="Subject"
-                                    />
-                                </p>
-                                <p className={classes.formM}>
-                                    <textarea
-                                        className={classes.formMessage}
-                                        id="message"
-                                        name="your-message"
-                                        placeholder="Message"
-                                    ></textarea>
-                                </p>
-                                <p className={classes.contactSubmitHolder}>
-                                    <input
-                                        className={classes.button}
-                                        type="submit"
-                                        value="SEND"
-                                    />
-                                </p>
-                            </form>
-                        </div>
+                    <div className={classes.form}>
+                        <ContactForm />
                     </div>
                 </div>
             </div>

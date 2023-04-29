@@ -23,7 +23,17 @@ const LeftContent = () => {
                 className={`${classes.slidingMenu} ${
                     active ? classes.activerootMenu : classes.rootMenu
                 }`}
-            ></div>
+            >
+                <div className={classes.Menu}>
+                    <div className={classes.options}>
+                        <p>Home</p>
+                        <p>About me</p>
+                        <p>Skills</p>
+                        <p>Projects</p>
+                        <p>Contact</p>
+                    </div>
+                </div>
+            </div>
 
             <div className={classes.alwaysDisplay}>
                 <div className={classes.content}>

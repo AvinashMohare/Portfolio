@@ -1,10 +1,10 @@
 import classes from "../svg_components_styles/Linkedin.module.scss";
 
-const Linkedin = () => {
+const Linkedin = (props) => {
     return (
         <svg
             className={classes.linkedin}
-            fill="#000000"
+            fill={props.color}
             version="1.1"
             id="Capa_1"
             width="80px"
