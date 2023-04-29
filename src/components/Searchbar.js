@@ -12,29 +12,37 @@ import { useRouter } from "next/router";
 
 const SearchItems = [
     {
-        query: "Want to know more about the person behind this website",
+        query: "know more about the person behind this website",
         link: "/portfolio",
     },
     {
-        query: "Explore my highlights and achievements",
-        link: "page_link",
-    },
-    {
         query: "Browse my project portfolio",
-        link: "page_link",
+        link: "/portfolio#projects",
     },
     {
-        query: "Curious about my work experience and expertise",
-        link: "page_link",
+        query: "Explore my highlights and achievements",
+        link: "/portfolio#projects",
     },
     {
-        query: "Discover my personal interests and hobbies outside of work",
-        link: "page_link",
+        query: "what are my skills",
+        link: "/portfolio#skills",
     },
     {
-        query: "Explore my academic background and qualifications",
-        link: "page_link",
+        query: "get in touch with me",
+        link: "/portfolio#contact",
     },
+    // {
+    //     query: "Curious about my work experience and expertise",
+    //     link: "page_link",
+    // },
+    // {
+    //     query: "Discover my personal interests and hobbies outside of work",
+    //     link: "page_link",
+    // },
+    // {
+    //     query: "Explore my academic background and qualifications",
+    //     link: "page_link",
+    // },
 ];
 
 const Searchbar = () => {

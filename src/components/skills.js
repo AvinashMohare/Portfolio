@@ -25,7 +25,7 @@ const SkillsList = [
 
 const Skills = () => {
     return (
-        <div className={classes.rootSkills}>
+        <div className={classes.rootSkills} id="skills">
             <div className={classes.heading}>
                 <p>Skills</p>
             </div>

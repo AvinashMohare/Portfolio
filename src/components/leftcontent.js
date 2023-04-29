@@ -26,11 +26,25 @@ const LeftContent = () => {
             >
                 <div className={classes.Menu}>
                     <div className={classes.options}>
-                        <p>Home</p>
-                        <p>About me</p>
-                        <p>Skills</p>
-                        <p>Projects</p>
-                        <p>Contact</p>
+                        <a href="#home" className={classes.optionsLink}>
+                            <p>Home</p>
+                        </a>
+
+                        <a href="#about" className={classes.optionsLink}>
+                            <p>About me</p>
+                        </a>
+
+                        <a href="#skills" className={classes.optionsLink}>
+                            <p>Skills</p>
+                        </a>
+
+                        <a href="#projects" className={classes.optionsLink}>
+                            <p>Projects</p>
+                        </a>
+
+                        <a href="#contact" className={classes.optionsLink}>
+                            <p>Contact</p>
+                        </a>
                     </div>
                 </div>
             </div>

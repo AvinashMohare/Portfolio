@@ -42,7 +42,7 @@ const ProjectsList = [
 
 const Projects = () => {
     return (
-        <div className={classes.rootProjects}>
+        <div className={classes.rootProjects} id="projects">
             <div className={classes.heading}>
                 <p>Projects</p>
             </div>

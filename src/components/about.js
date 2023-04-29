@@ -2,7 +2,7 @@ import classes from "../styles/About.module.scss";
 
 const About = () => {
     return (
-        <div className={classes.rootAbout}>
+        <div className={classes.rootAbout} id="about">
             <div className={classes.heading}>
                 <p>About Me</p>
             </div>

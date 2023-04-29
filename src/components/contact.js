@@ -7,7 +7,7 @@ import ContactForm from "./contactForm";
 
 const Contact = () => {
     return (
-        <div className={classes.rootContact}>
+        <div className={classes.rootContact} id="contact">
             <div className={classes.heading}>
                 <p>Get in Touch</p>
 
@@ -27,9 +27,10 @@ const Contact = () => {
                         </p>
 
                         <p className={classes.p3}>
-                            Energy hidden in matter a mote of lorem ipsum dust
-                            suspended in a sunbeam billions upon ratione
-                            voluptatem sequi nesciunt permano lorem ipsum.
+                            Thank you for visiting my website! I appreciate your
+                            interest and look forward to hearing from you. Don't
+                            hesitate to send me a message or connect with me on
+                            social media. Let's stay in touch!
                         </p>
 
                         <div className={classes.socials}>

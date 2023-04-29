@@ -11,6 +11,10 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
     return (
         <div className={classes.rootHome}>
+            <Head>
+                <title>Afolio</title>
+            </Head>
+
             <Header />
             <div className={classes.Title}>
                 <Title />
