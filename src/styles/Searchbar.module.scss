@@ -1,6 +1,6 @@
 .rootSearchbar {
     // height: auto;
-    // width: auto;
+    // width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -139,5 +139,336 @@
 
     .HomeButtons {
         padding-top: 14px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .rootSearchbar {
+        // margin-top: 100px;
+
+        &.active {
+            width: 500px;
+        }
+        .searchbar {
+            min-height: 44px;
+            width: 500px;
+
+            // box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+            .searchIcon {
+            }
+
+            .searchInner {
+                input {
+                }
+            }
+
+            .voice {
+            }
+
+            .camera {
+            }
+        }
+
+        .divider {
+        }
+
+        .dropdown {
+            height: fit-content;
+            width: 500px;
+            display: flex;
+            flex-direction: column;
+            background-color: #ffffff;
+            border: none;
+
+            &.active {
+                border-radius: 22px;
+                border-top-left-radius: 0;
+                border-top-right-radius: 0;
+            }
+
+            .dropdownContainer {
+                a {
+                    display: flex;
+                    flex-direction: row;
+                    // justify-items: ;
+                    align-items: center;
+                    text-decoration: none;
+
+                    .clock {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        // padding-top: 9px;
+                        padding-left: 19px;
+                    }
+                    .dropdownRow {
+                        text-transform: lowercase;
+                        font-size: 16px;
+                        font-family: arial, sans-serif;
+                        // padding: 5px 0px 3px 22px;
+                        padding: 8px 22px;
+                        color: #52188c;
+                    }
+
+                    &:hover {
+                        background-color: rgb(242, 245, 245);
+                    }
+                }
+            }
+        }
+
+        .HomeButtons {
+            padding-top: 14px;
+        }
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .rootSearchbar {
+        // margin-top: 100px;
+        // min-width: 100vw;
+
+        &.active {
+            width: 420px;
+        }
+        .searchbar {
+            min-height: 44px;
+            width: 420px;
+
+            // box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+            .searchIcon {
+            }
+
+            .searchInner {
+                input {
+                }
+            }
+
+            .voice {
+            }
+
+            .camera {
+            }
+        }
+
+        .divider {
+        }
+
+        .dropdown {
+            height: fit-content;
+            width: 420px;
+            display: flex;
+            flex-direction: column;
+            background-color: #ffffff;
+            border: none;
+
+            &.active {
+                border-radius: 22px;
+                border-top-left-radius: 0;
+                border-top-right-radius: 0;
+            }
+
+            .dropdownContainer {
+                a {
+                    display: flex;
+                    flex-direction: row;
+                    // justify-items: ;
+                    align-items: center;
+                    text-decoration: none;
+
+                    .clock {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        // padding-top: 9px;
+                        padding-left: 19px;
+                    }
+                    .dropdownRow {
+                        text-transform: lowercase;
+                        font-size: 16px;
+                        font-family: arial, sans-serif;
+                        // padding: 5px 0px 3px 22px;
+                        padding: 8px 22px;
+                        color: #52188c;
+                    }
+
+                    &:hover {
+                        background-color: rgb(242, 245, 245);
+                    }
+                }
+            }
+        }
+
+        .HomeButtons {
+            padding-top: 14px;
+        }
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .rootSearchbar {
+        // margin-top: 100px;
+        // min-width: 100vw;
+
+        &.active {
+            width: 350px;
+        }
+        .searchbar {
+            min-height: 44px;
+            width: 350px;
+
+            // box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+            .searchIcon {
+            }
+
+            .searchInner {
+                input {
+                }
+            }
+
+            .voice {
+            }
+
+            .camera {
+            }
+        }
+
+        .divider {
+        }
+
+        .dropdown {
+            height: fit-content;
+            width: 350px;
+            display: flex;
+            flex-direction: column;
+            background-color: #ffffff;
+            border: none;
+
+            &.active {
+                border-radius: 22px;
+                border-top-left-radius: 0;
+                border-top-right-radius: 0;
+            }
+
+            .dropdownContainer {
+                a {
+                    display: flex;
+                    flex-direction: row;
+                    // justify-items: ;
+                    align-items: center;
+                    text-decoration: none;
+
+                    .clock {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        // padding-top: 9px;
+                        padding-left: 19px;
+                    }
+                    .dropdownRow {
+                        text-transform: lowercase;
+                        font-size: 16px;
+                        font-family: arial, sans-serif;
+                        // padding: 5px 0px 3px 22px;
+                        padding: 8px 22px;
+                        color: #52188c;
+                    }
+
+                    &:hover {
+                        background-color: rgb(242, 245, 245);
+                    }
+                }
+            }
+        }
+
+        .HomeButtons {
+            padding-top: 14px;
+        }
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .rootSearchbar {
+        // margin-top: 100px;
+        // min-width: 100vw;
+
+        &.active {
+            width: 300px;
+        }
+        .searchbar {
+            min-height: 44px;
+            width: 300px;
+
+            // box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+            .searchIcon {
+            }
+
+            .searchInner {
+                input {
+                }
+            }
+
+            .voice {
+            }
+
+            .camera {
+            }
+        }
+
+        .divider {
+        }
+
+        .dropdown {
+            height: fit-content;
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            background-color: #ffffff;
+            border: none;
+
+            &.active {
+                border-radius: 22px;
+                border-top-left-radius: 0;
+                border-top-right-radius: 0;
+            }
+
+            .dropdownContainer {
+                a {
+                    display: flex;
+                    flex-direction: row;
+                    // justify-items: ;
+                    align-items: center;
+                    text-decoration: none;
+
+                    .clock {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        // padding-top: 9px;
+                        padding-left: 19px;
+                    }
+                    .dropdownRow {
+                        text-transform: lowercase;
+                        font-size: 16px;
+                        font-family: arial, sans-serif;
+                        // padding: 5px 0px 3px 22px;
+                        padding: 8px 22px;
+                        color: #52188c;
+                    }
+
+                    &:hover {
+                        background-color: rgb(242, 245, 245);
+                    }
+                }
+            }
+        }
+
+        .HomeButtons {
+            padding-top: 14px;
+        }
     }
 }
