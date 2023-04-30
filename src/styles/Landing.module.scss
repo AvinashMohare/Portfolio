@@ -1084,18 +1084,19 @@
 @media screen and (max-width: 418px) {
     .rootLanding {
         .center {
-            padding-top: 0px;
+            padding-top: 30px;
             z-index: 1000;
             height: fit-content;
 
             width: 100%;
             background-color: #f9f0ff;
+            // background-color: red;
 
             .contentContainer {
                 margin-left: 40px;
                 margin-right: 10px;
                 // margin-top: 50px;
-                padding-top: 100px;
+                padding-top: 90px;
                 overflow: hidden;
 
                 // align-items: center;
@@ -1105,7 +1106,7 @@
                     font-family: "Poppins", sans-serif;
                     font-size: 25px;
                     color: #492d31;
-                    margin-bottom: 0px;
+                    margin-bottom: 00px;
                 }
 
                 .fname {
@@ -1135,7 +1136,7 @@
                     line-height: 28px;
                     font-weight: 400;
                     color: #a88590;
-                    margin: 10px 0 0 0;
+                    margin: 10px 0 50px 0;
                     // align-items: center;
                     justify-content: center;
 
@@ -1146,7 +1147,7 @@
                     display: flex;
                     flex-direction: row;
                     margin-top: 50px;
-                    padding-bottom: 20px;
+                    padding-bottom: 80px;
 
                     .linkedin {
                         font-size: 12px;
