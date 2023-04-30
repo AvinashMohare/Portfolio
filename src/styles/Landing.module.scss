@@ -562,7 +562,7 @@
     .rootLanding {
         .center {
             z-index: 1000;
-            min-height: fit-content;
+            height: fit-content;
             width: 50%;
             background-color: #f9f0ff;
 
@@ -621,7 +621,7 @@
                     display: flex;
                     flex-direction: row;
                     margin-top: 50px;
-
+                    padding-bottom: 55px;
                     .linkedin {
                         font-size: 12px;
                         margin: 0 30px 0 0;
@@ -650,7 +650,7 @@
             // left: 50px;
 
             // border: ;
-            height: 100vh;
+            height: inherit;
             // width: 700px;
             width: 50%;
             background-image: url("https://media.licdn.com/dms/image/D4D03AQEuERGV8YqRrw/profile-displayphoto-shrink_400_400/0/1680588569235?e=1687996800&v=beta&t=Q6iwXHT0c271aJJ98CQ6wr91pB9M3JJ8HUg6xL-2OnI");
@@ -665,7 +665,7 @@
     .rootLanding {
         .center {
             z-index: 1000;
-            min-height: fit-content;
+            height: fit-content;
             width: 60%;
             background-color: #f9f0ff;
 
@@ -724,7 +724,7 @@
                     display: flex;
                     flex-direction: row;
                     margin-top: 50px;
-
+                    padding-bottom: 55px;
                     .linkedin {
                         font-size: 12px;
                         margin: 0 30px 0 0;
@@ -753,7 +753,7 @@
             // left: 50px;
 
             // border: ;
-            height: 100vh;
+            height: inherit;
             // width: 700px;
             width: 50%;
             background-image: url("https://media.licdn.com/dms/image/D4D03AQEuERGV8YqRrw/profile-displayphoto-shrink_400_400/0/1680588569235?e=1687996800&v=beta&t=Q6iwXHT0c271aJJ98CQ6wr91pB9M3JJ8HUg6xL-2OnI");
@@ -827,8 +827,8 @@
                 .Ids {
                     display: flex;
                     flex-direction: row;
-                    margin-top: 50px;
-                    padding-bottom: 30px;
+                    margin-top: 70px;
+                    padding-bottom: 50px;
 
                     .linkedin {
                         font-size: 12px;
@@ -981,7 +981,7 @@
         .center {
             padding-top: 0px;
             z-index: 1000;
-            min-height: fit-content;
+            height: 97vh;
             width: 100%;
             background-color: #f9f0ff;
 
@@ -1194,7 +1194,6 @@
         .center {
             padding-top: 0px;
             z-index: 1000;
-            // height: fit-content;
             height: fit-content;
 
             width: 100%;
@@ -1255,7 +1254,7 @@
                     display: flex;
                     flex-direction: row;
                     margin-top: 50px;
-                    padding-bottom: 20px;
+                    padding-bottom: 40px;
 
                     .linkedin {
                         font-size: 12px;
