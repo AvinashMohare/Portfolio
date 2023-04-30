@@ -852,6 +852,7 @@
         }
 
         .right {
+            display: none;
             // display: none;
             // height: 100vh;
             // width: 400px;
@@ -1062,7 +1063,7 @@
         }
 
         .right {
-            // display: none;
+            display: none;
             // height: 100vh;
             // width: 400px;
             border: none;
@@ -1169,6 +1170,7 @@
         }
 
         .right {
+            display: none;
             // display: none;
             // height: 100vh;
             // width: 400px;
@@ -1192,6 +1194,7 @@
         .center {
             padding-top: 0px;
             z-index: 1000;
+            // height: fit-content;
             height: fit-content;
 
             width: 100%;
@@ -1276,6 +1279,7 @@
         }
 
         .right {
+            display: none;
             // display: none;
             // height: 100vh;
             // width: 400px;
