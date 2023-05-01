@@ -19,8 +19,9 @@ export default function Home() {
             <div className={classes.Title}>
                 <Title />
             </div>
-
-            <Searchbar />
+            <div className={classes.searchbar}>
+                <Searchbar />
+            </div>
         </div>
     );
 }

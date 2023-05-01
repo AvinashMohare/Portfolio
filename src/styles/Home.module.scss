@@ -1,6 +1,6 @@
 .rootHome {
     // padding-top: 110px;
-    height: 100vh;
+    height: 90vh;
     // margin-top: 7654vh;
     // background-color: red;
     width: 100vw;
@@ -14,12 +14,16 @@
         // position: fixed;
         margin: 30px;
     }
+
+    .searchbar {
+        padding-bottom: 50px;
+    }
 }
 
 @media screen and (max-width: 570px) {
     .rootHome {
         .Title {
-            padding-top: 50px;
+            padding-top: 100px;
         }
     }
 }
@@ -27,7 +31,7 @@
 @media screen and (max-width: 380px) {
     .rootHome {
         .Title {
-            padding-top: 40px;
+            padding-top: 100px;
         }
     }
 }

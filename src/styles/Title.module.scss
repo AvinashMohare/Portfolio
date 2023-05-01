@@ -12,3 +12,35 @@
         }
     }
 }
+
+@media screen and (max-width: 650px) {
+    .rootTitle {
+        p {
+            font-size: 80px;
+        }
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .rootTitle {
+        p {
+            font-size: 75px;
+        }
+    }
+}
+
+@media screen and (max-width: 441px) {
+    .rootTitle {
+        p {
+            font-size: 72px;
+        }
+    }
+}
+
+@media screen and (max-width: 381px) {
+    .rootTitle {
+        p {
+            font-size: 70px;
+        }
+    }
+}
