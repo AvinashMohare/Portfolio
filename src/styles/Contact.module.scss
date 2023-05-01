@@ -466,15 +466,19 @@
 
 @media screen and (max-width: 479px) {
     .rootContact {
-        margin: 50px 0 0 40px;
+        margin: 0px 0 0 0px;
 
         .heading {
+            padding: 50px 40px 0 40px;
+
             font-size: 25px;
             line-height: 42px;
         }
 
         .contentContainer {
             .content {
+                padding: 0px 0 0 40px;
+
                 height: fit-content;
                 width: 100%;
                 // background-color: red;
@@ -542,9 +546,11 @@
             }
 
             .form {
+                margin: 50px 20px 0 20px;
+
                 // max-height: fit-content;
                 margin-top: 0;
-                width: 95%;
+                width: 90%;
                 background-color: #f37b83;
             }
         }
