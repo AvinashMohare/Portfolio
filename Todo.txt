@@ -14,3 +14,8 @@ On hold
 1. Achievements 
 
 
+margin change at 601px
+
+fonts change at 
+479 -- 25px
+601 -- 28px
