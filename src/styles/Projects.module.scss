@@ -92,7 +92,7 @@
         // background-color: aqua;
         height: fit-content;
 
-        margin: 80px 0 0 58px;
+        margin: 80px 10px 0 58px;
 
         .heading {
             width: 50%;
@@ -107,15 +107,15 @@
         }
 
         .content {
-            width: 80%;
+            width: 100%;
             .cards {
                 display: flex;
                 flex-direction: row;
                 flex-wrap: wrap;
                 padding-right: 20px;
                 .projectCard {
-                    height: 310px;
-                    width: 310px;
+                    height: auto;
+                    width: 280px;
                     background-color: #362a2e;
                     // color: #a88590;
                     // padding-right: 20px;
@@ -130,13 +130,8 @@
                         margin-left: 0px;
                     }
 
-                    &:nth-child(3),
-                    &:nth-child(5) {
-                        margin-left: 0px;
-                    }
-
                     &:nth-child(4) {
-                        margin-left: 25px;
+                        margin-left: 0px;
                     }
 
                     .logo {
@@ -149,6 +144,8 @@
                     }
 
                     .Cardcontent {
+                        padding-bottom: 30px;
+
                         width: 80%;
                         margin: auto;
                         padding-top: 45px;
@@ -179,14 +176,14 @@
     }
 }
 
-@media screen and (max-width: 1246px) {
+@media screen and (max-width: 1298px) {
     .rootProjects {
         max-width: 100%;
         // height: 100vh;
         // background-color: aqua;
         height: fit-content;
 
-        margin: 80px 0 0 58px;
+        margin: 80px 58px 0 58px;
 
         .heading {
             width: 50%;
@@ -209,7 +206,7 @@
                 padding-right: 20px;
                 .projectCard {
                     height: 310px;
-                    width: 310px;
+                    width: 48%;
                     background-color: #362a2e;
                     // color: #a88590;
                     // padding-right: 20px;
@@ -274,14 +271,14 @@
     }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 761px) {
     .rootProjects {
         max-width: 100%;
         // height: 100vh;
         // background-color: aqua;
         height: fit-content;
 
-        margin: 80px 0 0 58px;
+        margin: 70px 40px 0 58px;
 
         .heading {
             width: 50%;
@@ -296,6 +293,7 @@
         }
 
         .content {
+            margin-top: 50px;
             width: 100%;
             .cards {
                 display: flex;
@@ -303,8 +301,8 @@
                 flex-wrap: wrap;
                 padding-right: 20px;
                 .projectCard {
-                    height: 310px;
-                    width: 310px;
+                    height: fit-content;
+                    width: 100%;
                     background-color: #362a2e;
                     // color: #a88590;
                     // padding-right: 20px;
@@ -319,73 +317,14 @@
                         margin-left: 0px;
                     }
 
-                    &:nth-child(3) {
-                        margin-left: 25px;
+                    &:nth-child(2) {
+                        margin-left: 0px;
                     }
                     &:nth-child(4) {
                         margin-left: 0px;
                     }
-                    &:nth-child(5) {
-                        margin-left: 25px;
-                    }
-                }
-            }
-        }
-    }
-}
-
-@media screen and (max-width: 1158px) {
-    .rootProjects {
-        max-width: 100%;
-        // height: 100vh;
-        // background-color: aqua;
-        height: fit-content;
-
-        margin: 80px 0 0 58px;
-
-        .heading {
-            width: 50%;
-            p {
-                // color: #f37b83;
-                color: #f37b83;
-                font-size: 30px;
-                font-weight: 700;
-                line-height: 42px;
-                margin-bottom: 30px;
-            }
-        }
-
-        .content {
-            width: 80%;
-            .cards {
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                padding-right: 20px;
-                .projectCard {
-                    height: 310px;
-                    width: 310px;
-                    background-color: #362a2e;
-                    // color: #a88590;
-                    // padding-right: 20px;
-                    border-radius: 10px;
-                    margin-left: 25px;
-                    margin-bottom: 25px;
-
-                    cursor: pointer;
-                    transition: all 0.2s linear;
-
-                    &:first-child {
+                    &:nth-child(6) {
                         margin-left: 0px;
-                    }
-
-                    &:nth-child(3),
-                    &:nth-child(5) {
-                        margin-left: 0px;
-                    }
-
-                    &:nth-child(4) {
-                        margin-left: 25px;
                     }
 
                     .logo {
@@ -401,9 +340,204 @@
                         width: 80%;
                         margin: auto;
                         padding-top: 45px;
+                        padding-bottom: 30px;
 
                         .title {
                             font-size: 28px;
+                            line-height: 42px;
+                            color: #f37b83;
+                            font-weight: 700;
+                        }
+
+                        .desc {
+                            font-family: "Poppins", sans-serif;
+                            font-size: 15px;
+                            line-height: 30px;
+                            font-weight: 400;
+                            color: #a88590;
+                            margin-top: 10px;
+                        }
+                    }
+
+                    &:hover {
+                        transform: scale(1.04);
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 601px) {
+    .rootProjects {
+        max-width: 100%;
+        // height: 100vh;
+        // background-color: aqua;
+        height: fit-content;
+
+        margin: 70px 40px 0 58px;
+
+        .heading {
+            width: 50%;
+            p {
+                // color: #f37b83;
+                color: #f37b83;
+                font-size: 28px;
+                font-weight: 700;
+                line-height: 42px;
+                margin-bottom: 30px;
+            }
+        }
+
+        .content {
+            margin-top: 50px;
+            width: 100%;
+            .cards {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                padding-right: 20px;
+                .projectCard {
+                    height: fit-content;
+                    width: 100%;
+                    background-color: #362a2e;
+                    // color: #a88590;
+                    // padding-right: 20px;
+                    border-radius: 10px;
+                    margin-left: 25px;
+                    margin-bottom: 25px;
+
+                    cursor: pointer;
+                    transition: all 0.2s linear;
+
+                    &:first-child {
+                        margin-left: 0px;
+                    }
+
+                    &:nth-child(2) {
+                        margin-left: 0px;
+                    }
+                    &:nth-child(4) {
+                        margin-left: 0px;
+                    }
+                    &:nth-child(6) {
+                        margin-left: 0px;
+                    }
+
+                    .logo {
+                        height: 60px;
+                        width: 80%;
+                        // background-color: red;
+                        margin: auto;
+
+                        margin-top: 30px;
+                    }
+
+                    .Cardcontent {
+                        width: 80%;
+                        margin: auto;
+                        padding-top: 30px;
+                        padding-bottom: 30px;
+
+                        .title {
+                            font-size: 22px;
+                            line-height: 42px;
+                            color: #f37b83;
+                            font-weight: 700;
+                        }
+
+                        .desc {
+                            font-family: "Poppins", sans-serif;
+                            font-size: 15px;
+                            line-height: 30px;
+                            font-weight: 400;
+                            color: #a88590;
+                            margin-top: 10px;
+                        }
+                    }
+
+                    &:hover {
+                        transform: scale(1.04);
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .rootProjects {
+        max-width: 100%;
+        // height: 100vh;
+        // background-color: aqua;
+        height: fit-content;
+
+        margin: 70px 20px 0 58px;
+
+        .heading {
+            width: 50%;
+            p {
+                // color: #f37b83;
+                color: #f37b83;
+                font-size: 25px;
+                font-weight: 700;
+                line-height: 42px;
+                margin-bottom: 30px;
+            }
+        }
+
+        .content {
+            margin-top: 30px;
+            width: 100%;
+            .cards {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                padding-right: 20px;
+                .projectCard {
+                    height: fit-content;
+                    width: 100%;
+                    background-color: #362a2e;
+                    // color: #a88590;
+                    // padding-right: 20px;
+                    border-radius: 10px;
+                    margin-left: 25px;
+                    margin-bottom: 25px;
+
+                    cursor: pointer;
+                    transition: all 0.2s linear;
+
+                    &:first-child {
+                        margin-left: 0px;
+                    }
+
+                    &:nth-child(2) {
+                        margin-left: 0px;
+                    }
+                    &:nth-child(4) {
+                        margin-left: 0px;
+                    }
+                    &:nth-child(6) {
+                        margin-left: 0px;
+                    }
+
+                    .logo {
+                        height: 60px;
+                        width: 80%;
+                        // background-color: red;
+                        margin: auto;
+
+                        margin-top: 30px;
+                    }
+
+                    .Cardcontent {
+                        width: 80%;
+                        margin: auto;
+                        padding-top: 20px;
+                        padding-bottom: 30px;
+
+                        .title {
+                            font-size: 20px;
                             line-height: 42px;
                             color: #f37b83;
                             font-weight: 700;
