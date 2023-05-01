@@ -8,7 +8,7 @@ import Twitter from "@/Assets/svg/svg_components/Twitter";
 
 function ContactForm() {
     const [state, handleSubmit] = useForm("xgebdwgo");
-    if (false) {
+    if (state.succeeded) {
         return (
             <div className={classes.Submitted}>
                 <p className={classes.text}>Thank you for contacting!</p>
