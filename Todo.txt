@@ -19,3 +19,13 @@ margin change at 601px
 fonts change at 
 479 -- 25px
 601 -- 28px
+
+
+    
+background - background-color: #302729;
+        
+left -  background-color: #f37b83;
+
+font - color: #a88590;
+
+heading - color: #f37b83;
