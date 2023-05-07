@@ -29,3 +29,11 @@ left -  background-color: #f37b83;
 font - color: #a88590;
 
 heading - color: #f37b83;
+
+
+-------------------------
+
+background-color: #292730;
+left -  background-color: #837bf3;
+font - color: #9085a8;
+heading - color: #837bf3;
