@@ -94,7 +94,7 @@
     }
 }
 
-@media screen and (min-width: 2000px) {
+@media screen and (min-width: 1700px) {
     .rootContact {
         margin: 80px 0 0 58px;
         // display: flex;
@@ -113,12 +113,14 @@
         .contentContainer {
             display: flex;
             flex-direction: row;
+            justify-content: space-between;
+            margin-right: 120px;
             // justify-content: flex-start;
             // align-items: flex-start;
             .content {
                 // height: 500px;
                 // width: 100%;
-                width: 50%;
+                width: 55%;
                 // background-color: red;
                 display: flex;
                 flex-direction: row;
@@ -180,12 +182,13 @@
             }
 
             .form {
+                margin-left: 0px;
                 margin-top: 50px;
                 // height: fit-content;
                 // width: fit-content;
                 // height: inherit;
-                height: 440px;
-                width: 45%;
+                height: 460px;
+                width: 40%;
                 background-color: #f37b83;
             }
         }
