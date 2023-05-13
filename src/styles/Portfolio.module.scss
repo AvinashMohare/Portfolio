@@ -21,6 +21,31 @@
     }
 }
 
+@media screen and (min-width: 2000px) {
+    .rootPortfolio {
+        transition: all 0.5s ease;
+        margin: auto;
+
+        display: flex;
+        flex-direction: row;
+        background-color: #302729;
+        // background-color: #08314a;
+        // background-color: #292730;
+        // max-width: 99vw;
+        padding-bottom: 100px;
+
+        .LeftContent {
+            position: fixed;
+        }
+
+        .content {
+            position: relative;
+            left: 400px;
+            width: calc(98.9vw - 400px);
+        }
+    }
+}
+
 @media screen and (max-width: 1512px) {
     .rootPortfolio {
         transition: all 0.5s ease;

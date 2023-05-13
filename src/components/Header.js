@@ -8,8 +8,7 @@ const Header = () => {
                 <div className={classes.text}>
                     <a
                         target="__blank_"
-                        href="https://mail.google.com/mail/?view=cm&to=mohareavinash80@gmail.com
-"
+                        href="mailto:mohareavinash80@gmail.com"
                     >
                         Gmail
                     </a>

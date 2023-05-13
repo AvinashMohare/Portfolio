@@ -94,6 +94,104 @@
     }
 }
 
+@media screen and (min-width: 2000px) {
+    .rootContact {
+        margin: 80px 0 0 58px;
+        // display: flex;
+        // flex-direction: row;
+
+        .heading {
+            font-weight: 700;
+
+            // color: #f37b83;
+            color: #f37b83;
+            font-size: 35px;
+            line-height: 42px;
+            // margin-bottom: 50px;
+        }
+
+        .contentContainer {
+            display: flex;
+            flex-direction: row;
+            // justify-content: flex-start;
+            // align-items: flex-start;
+            .content {
+                // height: 500px;
+                // width: 100%;
+                width: 50%;
+                // background-color: red;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                margin-top: 50px;
+
+                .info {
+                    padding-right: 70px;
+
+                    height: 100%;
+                    width: 100%;
+                    // background-color: aliceblue;
+                    .p1 {
+                        font-size: 27px;
+                        color: #a88590;
+                        font-weight: normal;
+                        margin-bottom: 35px;
+                        line-height: 35px;
+                    }
+
+                    .p2 {
+                        font-size: 21px;
+                        color: #a88590;
+                        font-weight: 200;
+                        margin-bottom: 35px;
+
+                        line-height: 30px;
+                    }
+
+                    .p3 {
+                        font-size: 21px;
+                        color: #a88590;
+                        font-weight: 200;
+                        margin-bottom: 35px;
+
+                        line-height: 30px;
+                    }
+
+                    .socials {
+                        p {
+                            font-size: 25px;
+                            color: #a88590;
+                            font-weight: normal;
+                            margin-bottom: 20px;
+
+                            line-height: 30px;
+                        }
+
+                        .svgs {
+                            display: flex;
+                            flex-direction: row;
+
+                            div {
+                                margin-right: 22px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .form {
+                margin-top: 50px;
+                // height: fit-content;
+                // width: fit-content;
+                // height: inherit;
+                height: 440px;
+                width: 45%;
+                background-color: #f37b83;
+            }
+        }
+    }
+}
+
 @media screen and (max-width: 1260px) {
     .rootContact {
         // height: max-content;

@@ -170,6 +170,191 @@
     }
 }
 
+@media screen and (min-width: 2000px) {
+    .Submitted {
+        // background-color: aliceblue;
+        // margin: 50px;
+        height: 100%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        // background-color: #fff;
+
+        .text {
+            font-size: 20px;
+
+            padding: 0 15px;
+            // margin-top: 50px;
+            // background-color: #fff;
+            color: #fff;
+            text-align: center;
+        }
+
+        .line2 {
+            // width: 100%;
+            padding: 20px 70px 20px 70px;
+            line-height: 35px;
+            // background-color: aqua;
+            text-align: center;
+            font-weight: 500;
+            color: white;
+            font-size: 20px;
+        }
+
+        .svgLinked {
+            display: flex;
+            flex-direction: row;
+            margin-top: 20px;
+            div {
+                text-decoration: none;
+                margin: 0px 10px;
+            }
+        }
+    }
+
+    .formDesign {
+        // height: 100%;
+        // width: 50%;
+        margin-top: 30px;
+        // background-color: #f37b83;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .rootform {
+            // margin: auto;
+
+            // height: 80%;
+            width: 80%;
+            // background-color: red;
+
+            form {
+                height: 100%;
+                width: 100%;
+                // background-color: aqua;
+
+                .formInputP {
+                    margin-bottom: 5px;
+                    .formInput {
+                        // font-size: 22px;
+                        // color: white;
+                        // border: none;
+                        // background-color: transparent;
+                        border: 0;
+                        border-bottom: 2px solid #fff;
+                        padding-top: 13px;
+                        padding-bottom: 20px;
+                        margin: 10px 0;
+                        height: 28px;
+                        font-size: 18px;
+                        font-family: "Poppins", sans-serif;
+                        width: 100%;
+                        line-height: 25px;
+                        background-color: transparent;
+                        color: white;
+
+                        &::placeholder {
+                            color: #fff;
+                        }
+                        &:focus {
+                            // background-color: #f2f2f2;
+                            outline: none;
+                            // border: 0px solid transparent;
+                        }
+                        &:focus::placeholder {
+                            // display: none;
+                            opacity: 0;
+                        }
+                    }
+
+                    // .contactSubmitHandler {
+                    //     background-color: aqua;
+                    //     .button {
+                    //         border: 2px solid white;
+                    //     }
+                    // }
+                }
+
+                .formM {
+                    .formMessage {
+                        // border: none;
+                        // background-color: red;
+                        resize: none;
+                        border: 0;
+                        border-bottom: 2px solid #fff;
+                        padding-top: 13px;
+                        padding-bottom: 13px;
+                        margin: 10px 0;
+                        min-height: 120px;
+                        max-height: 120px;
+                        font-size: 18px;
+                        font-family: "Poppins", sans-serif;
+                        min-width: 100%;
+                        max-width: 100%;
+                        line-height: 25px;
+                        background-color: transparent;
+                        color: white;
+
+                        &::placeholder {
+                            color: #fff;
+                        }
+
+                        &:focus {
+                            outline: none;
+                        }
+
+                        &:focus::placeholder {
+                            // display: none;
+                            opacity: 0;
+                        }
+                    }
+                }
+
+                .contactSubmitHolder {
+                    padding-bottom: 10px;
+
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100%;
+                    padding-bottom: 10px;
+                    align-self: center;
+
+                    .button {
+                        cursor: pointer;
+
+                        // border: 0;
+                        border: 2px solid #fff;
+                        padding-top: 15px;
+                        padding-bottom: 13px;
+                        margin: 10px 0;
+                        height: 64px;
+                        font-size: 16px;
+                        font-family: "Poppins", sans-serif;
+                        width: 50%;
+                        line-height: 25px;
+                        background-color: transparent;
+                        color: white;
+                        font-weight: 700;
+                        letter-spacing: 5px;
+                        // transform: ;
+                        transition: all 0.5s ease;
+
+                        &:hover {
+                            background-color: white;
+                            transition: all 0.25s ease;
+
+                            color: #f37b83;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 @media screen and (max-width: 1260px) {
     .formDesign {
         // height: 100%;
