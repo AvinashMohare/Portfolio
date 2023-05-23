@@ -2,7 +2,7 @@ import classes from "../styles/Landing.module.scss";
 
 const Landing = () => {
     return (
-        <div className={classes.rootLanding} id="home">
+        <div data-aos="fade-in" className={classes.rootLanding} id="home">
             <div className={classes.center}>
                 <div className={classes.contentContainer}>
                     <p className={classes.tagline}>Hello. My name is</p>

@@ -25,34 +25,37 @@
             flex-direction: row;
             flex-wrap: wrap;
             padding-right: 20px;
+
             .projectCard {
-                height: 310px;
-                width: 310px;
+                a {
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                }
+
+                * {
+                    text-decoration: none;
+                }
+
+                height: 320px;
+                width: 320px;
                 background-color: #362a2e;
                 // color: #a88590;
                 // padding-right: 20px;
                 border-radius: 10px;
-                margin-left: 25px;
+                margin-right: 25px;
                 margin-bottom: 25px;
 
                 cursor: pointer;
                 transition: all 0.2s linear;
-
-                &:first-child {
-                    margin-left: 0px;
-                }
-
-                &:nth-child(4) {
-                    margin-left: 0px;
-                }
 
                 .logo {
                     height: 60px;
                     width: 80%;
                     // background-color: red;
                     margin: auto;
-
-                    margin-top: 30px;
+                    margin-bottom: 10px;
+                    padding-top: 30px;
                 }
 
                 .Cardcontent {
@@ -70,13 +73,25 @@
                     .desc {
                         font-family: "Poppins", sans-serif;
                         font-size: 15px;
-                        line-height: 30px;
+                        line-height: 28px;
                         font-weight: 400;
                         color: #a88590;
                         margin-top: 10px;
+                        // text-align: justify;
+                    }
+
+                    .links {
+                        // margin-top: 12px;
+                        // display: flex;
+                        // flex-direction: row;
+
+                        p {
+                            font-size: 12px;
+                            color: #a88590;
+                            margin-right: 20px;
+                        }
                     }
                 }
-
                 &:hover {
                     transform: scale(1.04);
                 }
@@ -85,460 +100,122 @@
     }
 }
 
-// @media screen and (min-width: 2000px) {
-//     .rootProjects {
-//         max-width: 100%;
-//         // height: 100vh;
-//         // background-color: aqua;
-//         height: fit-content;
-
-//         margin: 80px 0 0 58px;
-
-//         .heading {
-//             width: 50%;
-//             p {
-//                 // color: #f37b83;
-//                 color: #f37b83;
-//                 font-size: 35px;
-//                 font-weight: 700;
-//                 line-height: 42px;
-//                 margin-bottom: 50px;
-//             }
-//         }
-
-//         .content {
-//             width: 100%;
-//             .cards {
-//                 display: flex;
-//                 flex-direction: row;
-//                 flex-wrap: wrap;
-//                 // padding-right: 80px;
-//                 .projectCard {
-//                     height: 390px;
-//                     width: 390px;
-//                     background-color: #362a2e;
-//                     // color: #a88590;
-//                     // padding-right: 20px;
-//                     border-radius: 10px;
-//                     margin-left: 30px;
-//                     margin-bottom: 30px;
-
-//                     cursor: pointer;
-//                     transition: all 0.2s linear;
-
-//                     &:first-child {
-//                         margin-left: 0px;
-//                     }
-
-//                     &:nth-child(4) {
-//                         margin-left: 0px;
-//                     }
-
-//                     .logo {
-//                         height: 60px;
-//                         width: 80%;
-//                         // background-color: red;
-//                         margin: auto;
-
-//                         margin-top: 30px;
-//                     }
-
-//                     .Cardcontent {
-//                         width: 80%;
-//                         margin: auto;
-//                         padding-top: 70px;
-
-//                         .title {
-//                             font-size: 33px;
-//                             line-height: 42px;
-//                             color: #f37b83;
-//                             font-weight: 700;
-//                         }
-
-//                         .desc {
-//                             font-family: "Poppins", sans-serif;
-//                             font-size: 19px;
-//                             line-height: 30px;
-//                             font-weight: 400;
-//                             color: #a88590;
-//                             margin-top: 25px;
-//                         }
-//                     }
-
-//                     &:hover {
-//                         transform: scale(1.04);
-//                     }
-//                 }
-//             }
-//         }
-//     }
-// }
-
-@media screen and (min-width: 1687px) {
+@media screen and (max-width: 1433px) {
     .rootProjects {
-        max-width: 100%;
-        // height: 100vh;
-        // background-color: aqua;
-        height: fit-content;
-
-        margin: 80px 0 0 58px;
-
-        .heading {
-            width: 50%;
-            p {
-                // color: #f37b83;
-                color: #f37b83;
-                font-size: 35px;
-                font-weight: 700;
-                line-height: 42px;
-                margin-bottom: 50px;
+        .content {
+            .cards {
+                .projectCard {
+                    height: 330px;
+                    width: 420px;
+                }
             }
         }
+    }
+}
 
+@media screen and (max-width: 1288px) {
+    .rootProjects {
         .content {
-            width: 100%;
             .cards {
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                // padding-right: 80px;
                 .projectCard {
-                    height: 380px;
+                    height: 330px;
+                    width: 350px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1201px) {
+    .rootProjects {
+        .content {
+            .cards {
+                .projectCard {
+                    height: 330px;
+                    width: 440px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1108px) {
+    .rootProjects {
+        .content {
+            .cards {
+                .projectCard {
+                    height: 330px;
+                    width: 400px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1028px) {
+    .rootProjects {
+        .content {
+            .cards {
+                .projectCard {
+                    height: 330px;
+                    width: 350px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 937px) {
+    .rootProjects {
+        .content {
+            .cards {
+                .projectCard {
+                    height: 330px;
                     width: 380px;
-                    background-color: #362a2e;
-                    // color: #a88590;
-                    // padding-right: 20px;
-                    border-radius: 10px;
-                    margin-left: 30px;
-                    margin-bottom: 30px;
-
-                    cursor: pointer;
-                    transition: all 0.2s linear;
-
-                    &:first-child {
-                        margin-left: 0px;
-                    }
-
-                    &:nth-child(4) {
-                        margin-left: 0px;
-                    }
-
-                    .logo {
-                        height: 60px;
-                        width: 80%;
-                        // background-color: red;
-                        margin: auto;
-
-                        margin-top: 30px;
-                    }
-
-                    .Cardcontent {
-                        width: 80%;
-                        margin: auto;
-                        padding-top: 70px;
-
-                        .title {
-                            font-size: 33px;
-                            line-height: 42px;
-                            color: #f37b83;
-                            font-weight: 700;
-                        }
-
-                        .desc {
-                            font-family: "Poppins", sans-serif;
-                            font-size: 19px;
-                            line-height: 30px;
-                            font-weight: 400;
-                            color: #a88590;
-                            margin-top: 25px;
-                        }
-                    }
-
-                    &:hover {
-                        transform: scale(1.04);
-                    }
                 }
             }
         }
     }
 }
 
-@media screen and (max-width: 1376px) {
+@media screen and (max-width: 888px) {
     .rootProjects {
-        max-width: 100%;
-        // height: 100vh;
-        // background-color: aqua;
-        height: fit-content;
-
-        margin: 80px 10px 0 58px;
-
-        .heading {
-            width: 50%;
-            p {
-                // color: #f37b83;
-                color: #f37b83;
-                font-size: 30px;
-                font-weight: 700;
-                line-height: 42px;
-                margin-bottom: 30px;
-            }
-        }
-
         .content {
-            width: 100%;
             .cards {
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                padding-right: 20px;
                 .projectCard {
-                    height: auto;
-                    width: 280px;
-                    background-color: #362a2e;
-                    // color: #a88590;
-                    // padding-right: 20px;
-                    border-radius: 10px;
-                    margin-left: 25px;
-                    margin-bottom: 25px;
-
-                    cursor: pointer;
-                    transition: all 0.2s linear;
-
-                    &:first-child {
-                        margin-left: 0px;
-                    }
-
-                    &:nth-child(4) {
-                        margin-left: 0px;
-                    }
-
-                    .logo {
-                        height: 60px;
-                        width: 80%;
-                        // background-color: red;
-                        margin: auto;
-
-                        margin-top: 30px;
-                    }
-
-                    .Cardcontent {
-                        padding-bottom: 30px;
-
-                        width: 80%;
-                        margin: auto;
-                        padding-top: 45px;
-
-                        .title {
-                            font-size: 28px;
-                            line-height: 42px;
-                            color: #f37b83;
-                            font-weight: 700;
-                        }
-
-                        .desc {
-                            font-family: "Poppins", sans-serif;
-                            font-size: 15px;
-                            line-height: 30px;
-                            font-weight: 400;
-                            color: #a88590;
-                            margin-top: 10px;
-                        }
-                    }
-
-                    &:hover {
-                        transform: scale(1.04);
-                    }
+                    height: 330px;
+                    width: 350px;
                 }
             }
         }
     }
 }
 
-@media screen and (max-width: 1298px) {
+@media screen and (max-width: 828px) {
     .rootProjects {
-        max-width: 100%;
-        // height: 100vh;
-        // background-color: aqua;
-        height: fit-content;
-
-        margin: 80px 58px 0 58px;
-
-        .heading {
-            width: 50%;
-            p {
-                // color: #f37b83;
-                color: #f37b83;
-                font-size: 30px;
-                font-weight: 700;
-                line-height: 42px;
-                margin-bottom: 30px;
-            }
-        }
-
         .content {
-            width: 100%;
             .cards {
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                padding-right: 20px;
                 .projectCard {
-                    height: 310px;
-                    width: 48%;
-                    background-color: #362a2e;
-                    // color: #a88590;
-                    // padding-right: 20px;
-                    border-radius: 10px;
-                    margin-left: 25px;
-                    margin-bottom: 25px;
-
-                    cursor: pointer;
-                    transition: all 0.2s linear;
-
-                    &:first-child {
-                        margin-left: 0px;
-                    }
-
-                    &:nth-child(3) {
-                        margin-left: 0px;
-                    }
-                    &:nth-child(4) {
-                        margin-left: 25px;
-                    }
-                    &:nth-child(5) {
-                        margin-left: 0px;
-                    }
-
-                    .logo {
-                        height: 60px;
-                        width: 80%;
-                        // background-color: red;
-                        margin: auto;
-
-                        margin-top: 30px;
-                    }
-
-                    .Cardcontent {
-                        width: 80%;
-                        margin: auto;
-                        padding-top: 45px;
-
-                        .title {
-                            font-size: 28px;
-                            line-height: 42px;
-                            color: #f37b83;
-                            font-weight: 700;
-                        }
-
-                        .desc {
-                            font-family: "Poppins", sans-serif;
-                            font-size: 15px;
-                            line-height: 30px;
-                            font-weight: 400;
-                            color: #a88590;
-                            margin-top: 10px;
-                        }
-                    }
-
-                    &:hover {
-                        transform: scale(1.04);
-                    }
+                    height: 330px;
+                    width: 302px;
                 }
             }
         }
     }
 }
 
-@media screen and (max-width: 761px) {
+@media screen and (max-width: 732px) {
     .rootProjects {
-        max-width: 100%;
-        // height: 100vh;
-        // background-color: aqua;
-        height: fit-content;
-
-        margin: 70px 40px 0 58px;
-
-        .heading {
-            width: 50%;
-            p {
-                // color: #f37b83;
-                color: #f37b83;
-                font-size: 30px;
-                font-weight: 700;
-                line-height: 42px;
-                margin-bottom: 30px;
-            }
-        }
-
         .content {
-            margin-top: 50px;
-            width: 100%;
             .cards {
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                padding-right: 20px;
                 .projectCard {
-                    height: fit-content;
-                    width: 100%;
-                    background-color: #362a2e;
-                    // color: #a88590;
-                    // padding-right: 20px;
-                    border-radius: 10px;
-                    margin-left: 25px;
-                    margin-bottom: 25px;
-
-                    cursor: pointer;
-                    transition: all 0.2s linear;
-
-                    &:first-child {
-                        margin-left: 0px;
-                    }
-
-                    &:nth-child(2) {
-                        margin-left: 0px;
-                    }
-                    &:nth-child(4) {
-                        margin-left: 0px;
-                    }
-                    &:nth-child(6) {
-                        margin-left: 0px;
-                    }
-
-                    .logo {
-                        height: 60px;
-                        width: 80%;
-                        // background-color: red;
-                        margin: auto;
-
-                        margin-top: 30px;
-                    }
+                    height: 280px;
+                    width: 90%;
 
                     .Cardcontent {
-                        width: 80%;
-                        margin: auto;
-                        padding-top: 45px;
-                        padding-bottom: 30px;
-
-                        .title {
-                            font-size: 28px;
-                            line-height: 42px;
-                            color: #f37b83;
-                            font-weight: 700;
-                        }
-
                         .desc {
-                            font-family: "Poppins", sans-serif;
-                            font-size: 15px;
-                            line-height: 30px;
-                            font-weight: 400;
-                            color: #a88590;
-                            margin-top: 10px;
+                            padding-bottom: 20px;
                         }
-                    }
-
-                    &:hover {
-                        transform: scale(1.04);
                     }
                 }
             }
@@ -548,94 +225,27 @@
 
 @media screen and (max-width: 601px) {
     .rootProjects {
-        max-width: 100%;
-        // height: 100vh;
-        // background-color: aqua;
-        height: fit-content;
-
-        margin: 70px 40px 0 40px;
+        margin: 80px 0 0 40px;
 
         .heading {
-            width: 50%;
             p {
-                // color: #f37b83;
-                color: #f37b83;
-                font-size: 28px;
-                font-weight: 700;
-                line-height: 42px;
-                margin-bottom: 30px;
+                font-size: 25px;
             }
         }
 
         .content {
-            margin-top: 50px;
-            width: 100%;
             .cards {
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                padding-right: 20px;
                 .projectCard {
-                    height: fit-content;
+                    height: 300px;
                     width: 100%;
-                    background-color: #362a2e;
-                    // color: #a88590;
-                    // padding-right: 20px;
-                    border-radius: 10px;
-                    margin-left: 25px;
-                    margin-bottom: 25px;
-
-                    cursor: pointer;
-                    transition: all 0.2s linear;
-
-                    &:first-child {
-                        margin-left: 0px;
-                    }
-
-                    &:nth-child(2) {
-                        margin-left: 0px;
-                    }
-                    &:nth-child(4) {
-                        margin-left: 0px;
-                    }
-                    &:nth-child(6) {
-                        margin-left: 0px;
-                    }
-
-                    .logo {
-                        height: 60px;
-                        width: 80%;
-                        // background-color: red;
-                        margin: auto;
-
-                        margin-top: 30px;
-                    }
 
                     .Cardcontent {
-                        width: 80%;
-                        margin: auto;
-                        padding-top: 30px;
-                        padding-bottom: 30px;
-
                         .title {
                             font-size: 22px;
-                            line-height: 42px;
-                            color: #f37b83;
-                            font-weight: 700;
                         }
-
                         .desc {
-                            font-family: "Poppins", sans-serif;
-                            font-size: 15px;
-                            line-height: 30px;
-                            font-weight: 400;
-                            color: #a88590;
-                            margin-top: 10px;
+                            padding-bottom: 20px;
                         }
-                    }
-
-                    &:hover {
-                        transform: scale(1.04);
                     }
                 }
             }
@@ -643,96 +253,45 @@
     }
 }
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 460px) {
     .rootProjects {
-        max-width: 100%;
-        // height: 100vh;
-        // background-color: aqua;
-        height: fit-content;
+        .content {
+            .cards {
+                .projectCard {
+                    height: 330px;
+                    width: 100%;
 
-        margin: 70px 20px 0 40px;
-
-        .heading {
-            width: 50%;
-            p {
-                // color: #f37b83;
-                color: #f37b83;
-                font-size: 25px;
-                font-weight: 700;
-                line-height: 42px;
-                margin-bottom: 30px;
+                    .Cardcontent {
+                        .desc {
+                        }
+                    }
+                }
             }
         }
+    }
+}
 
+@media screen and (max-width: 383px) {
+    .rootProjects {
         .content {
-            margin-top: 30px;
-            width: 100%;
             .cards {
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                padding-right: 20px;
                 .projectCard {
-                    height: fit-content;
+                    height: 350px;
                     width: 100%;
-                    background-color: #362a2e;
-                    // color: #a88590;
-                    // padding-right: 20px;
-                    border-radius: 10px;
-                    margin-left: 25px;
-                    margin-bottom: 25px;
-
-                    cursor: pointer;
-                    transition: all 0.2s linear;
-
-                    &:first-child {
-                        margin-left: 0px;
-                    }
-
-                    &:nth-child(2) {
-                        margin-left: 0px;
-                    }
-                    &:nth-child(4) {
-                        margin-left: 0px;
-                    }
-                    &:nth-child(6) {
-                        margin-left: 0px;
-                    }
 
                     .logo {
-                        height: 60px;
-                        width: 80%;
-                        // background-color: red;
-                        margin: auto;
-
-                        margin-top: 30px;
+                        margin-bottom: 0px;
+                        padding-top: 20px;
                     }
 
                     .Cardcontent {
-                        width: 80%;
-                        margin: auto;
-                        padding-top: 20px;
-                        padding-bottom: 30px;
-
                         .title {
-                            font-size: 20px;
-                            line-height: 42px;
-                            color: #f37b83;
+                            line-height: 30px;
                             font-weight: 700;
                         }
-
                         .desc {
-                            font-family: "Poppins", sans-serif;
-                            font-size: 15px;
-                            line-height: 30px;
-                            font-weight: 400;
-                            color: #a88590;
-                            margin-top: 10px;
+                            margin-top: 5px;
                         }
-                    }
-
-                    &:hover {
-                        transform: scale(1.04);
                     }
                 }
             }

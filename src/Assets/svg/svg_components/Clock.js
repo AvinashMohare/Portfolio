@@ -7,7 +7,7 @@ const Clock = () => {
             xmlns="http://www.w3.org/2000/svg"
             fill="#9aa0a6"
         >
-            {/* <g id="SVGRepo_bgCarrier" stroke-width="0" /> */}
+            {/* <g id="SVGRepo_bgCarrier" strokeWidth="0" /> */}
 
             <g
                 id="SVGRepo_tracerCarrier"
@@ -26,7 +26,7 @@ const Clock = () => {
                                 stroke="#9aa0a6"
                                 stroke-linecap="round"
                                 stroke-linejoin="round"
-                                stroke-width="2"
+                                strokeWidth="2"
                             />
                             <circle
                                 cx="12"
@@ -38,7 +38,7 @@ const Clock = () => {
                                 stroke="#9aa0a6"
                                 stroke-linecap="round"
                                 stroke-linejoin="round"
-                                stroke-width="2"
+                                strokeWidth="2"
                             />
                         </g>
                     </g>

@@ -33,16 +33,21 @@ const Skills = () => {
             <div className={classes.content}>
                 {SkillsList.map((skill) => {
                     return (
-                        <div className={classes.skill}>
+                        <div key={skill.name} className={classes.skill}>
                             <div className={classes.skillHolder}>
                                 <div className={classes.progressbarMain}>
                                     <div className={classes.progressBar}></div>
                                     <div
-                                        className={classes.progressBarUp}
+                                        className={classes.progressBarAnim}
                                         style={{
                                             width: `${skill.width}%`,
+                                            maxWidth: `${skill.width}%`,
                                         }}
-                                    ></div>
+                                    >
+                                        <div
+                                            className={classes.progressBarUp}
+                                        ></div>
+                                    </div>
                                 </div>
                                 <div className={classes.skillPercentage}>
                                     <p>{skill.percentage + "%"}</p>
