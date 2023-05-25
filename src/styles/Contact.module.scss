@@ -35,11 +35,11 @@
                 width: 100%;
                 // background-color: aliceblue;
                 .p1 {
-                    font-size: 22px;
+                    font-size: 20px;
                     color: #a88590;
                     font-weight: normal;
                     margin-bottom: 30px;
-                    line-height: 35px;
+                    line-height: 30px;
                 }
 
                 .p2 {
@@ -134,7 +134,7 @@
                     width: 100%;
                     // background-color: aliceblue;
                     .p1 {
-                        font-size: 27px;
+                        font-size: 22px;
                         color: #a88590;
                         font-weight: normal;
                         margin-bottom: 35px;
@@ -142,7 +142,7 @@
                     }
 
                     .p2 {
-                        font-size: 21px;
+                        font-size: 18px;
                         color: #a88590;
                         font-weight: 200;
                         margin-bottom: 35px;
@@ -151,7 +151,7 @@
                     }
 
                     .p3 {
-                        font-size: 21px;
+                        font-size: 18px;
                         color: #a88590;
                         font-weight: 200;
                         margin-bottom: 35px;
@@ -182,6 +182,7 @@
             }
 
             .form {
+                overflow-x: hidden;
                 margin-left: 0px;
                 margin-top: 50px;
                 // height: fit-content;
@@ -280,6 +281,8 @@
             }
 
             .form {
+                overflow-x: hidden;
+
                 // max-height: fit-content;
                 margin-top: 0;
                 width: 95%;
@@ -374,6 +377,8 @@
             }
 
             .form {
+                overflow-x: hidden;
+
                 // max-height: fit-content;
                 margin-top: 0;
                 width: 95%;
@@ -469,6 +474,8 @@
             }
 
             .form {
+                overflow-x: hidden;
+
                 // max-height: fit-content;
                 margin-top: 0;
                 width: 95%;
@@ -556,6 +563,8 @@
             }
 
             .form {
+                overflow-x: hidden;
+
                 // max-height: fit-content;
                 margin-top: 0;
                 width: 95%;
@@ -647,6 +656,8 @@
             }
 
             .form {
+                // overflow-x: hidden;
+
                 margin: 50px 20px 0 20px;
 
                 // max-height: fit-content;

@@ -3,9 +3,8 @@ import "aos/dist/aos.css";
 
 const initializeAOS = () => {
     AOS.init({
-        offset: 200,
-        duration: 1000,
-        // Add any configuration options here
+        offset: 150,
+        duration: 500,
     });
 };
 

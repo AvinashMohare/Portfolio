@@ -1,5 +1,6 @@
 import Dots from "@/Assets/svg/svg_components/Dots";
 import classes from "../styles/Header.module.scss";
+import Avinash from "../Assets/images/Avinash.jpg";
 
 const Header = () => {
     return (
@@ -21,7 +22,7 @@ const Header = () => {
                     <Dots />
                 </div>
                 <div className={classes.logo}>
-                    <img src="https://lh3.googleusercontent.com/ogw/AAEL6sjPYKRuIUwl70nypeeeNDxyVXAGTb0hWfj0svp6fA=s32-c-mo" />
+                    <img src="https://lh3.googleusercontent.com/a/AAcHTtdZii8sNKW1OIthpBYtpXciILa1XnTd4QPQeqZIJg=s360-c-no" />
                 </div>
             </div>
         </div>

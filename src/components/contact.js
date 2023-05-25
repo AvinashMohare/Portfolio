@@ -16,23 +16,26 @@ const Contact = () => {
                 <div className={classes.content}>
                     <div className={classes.info}>
                         <p className={classes.p1}>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Viverra tristique placerat in massa
-                            consectetur quisque nunc fames.
+                            I believe in the power of creative collaboration and
+                            its transformative impact. If you are looking to
+                            bring your ideas to life or have an exciting
+                            creative endeavor, I am here to be your partner in
+                            the process.
                         </p>
 
                         <p className={classes.p2}>
-                            Magni dolores eos qui sed quia consequuntur ratione
-                            voluptatem sequi nesciunt permano Nence of the stars
-                            from which we spring muse about as a patch of light
-                            billions upon billions.
+                            Whether you have a groundbreaking project idea, a
+                            potential collaboration opportunity, or even if you
+                            just want to reach out and say hello, I'm genuinely
+                            excited to lend an ear and hear your thoughts.
                         </p>
 
                         <p className={classes.p3}>
-                            Thank you for visiting my website! I appreciate your
-                            interest and look forward to hearing from you. Don't
-                            hesitate to send me a message or connect with me on
-                            social media. Let's stay in touch!
+                            At last, thank you for visiting my website! I
+                            appteciate your interest and look forward to hearing
+                            from you. Don't hesitate to send me a message or
+                            connect with me on social media. Let's stay in
+                            touch!
                         </p>
 
                         <div className={classes.socials}>
@@ -76,7 +79,7 @@ const Contact = () => {
                     </div>
                 </div>
 
-                <div className={classes.form}>
+                <div className={classes.form} data-aos="flip-down">
                     <ContactForm />
                 </div>
             </div>

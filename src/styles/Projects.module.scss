@@ -11,7 +11,7 @@
         p {
             // color: #f37b83;
             color: #f37b83;
-            font-size: 30px;
+            font-size: 35px;
             font-weight: 700;
             line-height: 42px;
             margin-bottom: 30px;
@@ -95,6 +95,16 @@
                 &:hover {
                     transform: scale(1.04);
                 }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1700px) {
+    .rootProjects {
+        .heading {
+            p {
+                font-size: 30px;
             }
         }
     }
@@ -238,6 +248,8 @@
                 .projectCard {
                     height: 300px;
                     width: 100%;
+
+                    margin-right: 18px;
 
                     .Cardcontent {
                         .title {

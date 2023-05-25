@@ -5,18 +5,19 @@ const Landing = () => {
         <div data-aos="fade-in" className={classes.rootLanding} id="home">
             <div className={classes.center}>
                 <div className={classes.contentContainer}>
-                    <p className={classes.tagline}>Hello. My name is</p>
+                    <p className={classes.tagline}>Hello, My name is</p>
 
                     <p className={classes.fname}>Avinash</p>
                     <p className={classes.lname}>Mohare</p>
 
                     <p className={classes.bio}>
-                        I am a Software development engineer with Expertise in
-                        Design, having experience in development and
-                        implementation of Responsive Web Applications and
-                        solutions with Reacts, hooks and REST APls along with
-                        scalable spring boot services, Java languages to
-                        maximize development efficiency.
+                        I like to craft solid and scalable frontend products
+                        with great user experiences. I have a strong background
+                        in developing and implementing Responsive Web
+                        Applications using React, hooks, and REST APIs.
+                        Additionally, I have expertise in building scalable
+                        Spring Boot services and working with Java to ensure
+                        maximum development efficiency.
                     </p>
 
                     <div className={classes.Ids}>

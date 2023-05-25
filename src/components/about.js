@@ -8,10 +8,9 @@ const About = () => {
             </div>
             <div className={classes.content}>
                 <p>
-                    Hello, my name is Avinash and I am a web developer. I am
-                    currently pursuing B.Tech in Artificial Intelligence, and
-                    while I have a strong interest in AI, my main focus is on
-                    building beautiful and functional websites. I aim to
+                    I am currently pursuing B.Tech in Artificial Intelligence,
+                    and while I have a strong interest in AI, my main focus is
+                    on building beautiful and functional websites. I aim to
                     leverage my knowledge of AI to enhance my web development
                     skills and create innovative solutions. My approach to web
                     development is focused on creating user-friendly and
@@ -53,7 +52,7 @@ const About = () => {
                 </p>
             </div>
 
-            <div className={classes.button}>
+            <div className={classes.button} data-aos="fade-up">
                 <p>Download CV</p>
             </div>
         </div>

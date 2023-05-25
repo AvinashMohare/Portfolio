@@ -176,6 +176,10 @@
             .info {
                 vertical-align: baseline;
                 margin-bottom: 30px;
+
+                * {
+                    text-decoration: none;
+                }
                 .heading {
                     line-height: 12px;
                     font-size: 11px;

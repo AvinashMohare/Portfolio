@@ -5,21 +5,25 @@ const SkillsList = [
         name: "Web Development",
         percentage: "75",
         width: 75,
+        aos: "fade-right",
     },
     {
         name: "App Development",
         percentage: "65",
         width: 65,
+        aos: "fade-left",
     },
     {
         name: "Machine Learning",
         percentage: "60",
         width: 60,
+        aos: "fade-right",
     },
     {
         name: "Data Science",
         percentage: "50",
         width: 50,
+        aos: "fade-left",
     },
 ];
 
@@ -33,7 +37,11 @@ const Skills = () => {
             <div className={classes.content}>
                 {SkillsList.map((skill) => {
                     return (
-                        <div key={skill.name} className={classes.skill}>
+                        <div
+                            key={skill.name}
+                            className={classes.skill}
+                            data-aos={skill.aos}
+                        >
                             <div className={classes.skillHolder}>
                                 <div className={classes.progressbarMain}>
                                     <div className={classes.progressBar}></div>
