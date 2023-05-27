@@ -19,7 +19,7 @@ const ProjectsList = [
         title: "Sukrishak",
         desc: "Mobile application designed to help farmers connect to useful resources. To empower farmers by providing them valuable information,and opportunities",
         Svg: Android,
-        link: "https://github.com/sukrishak?view_as=public",
+        link: "https://github.com/AvinashMohare/Portfolio-Assets/blob/master/Projects/Sukrishak.apk",
         aos: "fade-down",
     },
     {
