@@ -67,6 +67,7 @@
             }
 
             .Ids {
+                overflow: hidden;
                 display: flex;
                 flex-direction: row;
                 margin-top: 50px;
@@ -130,9 +131,10 @@
         min-height: 100vh;
         // width: 700px;
         width: 55%;
-        background-image: url("https://media.licdn.com/dms/image/D4D03AQEuERGV8YqRrw/profile-displayphoto-shrink_400_400/0/1680588569235?e=1687996800&v=beta&t=Q6iwXHT0c271aJJ98CQ6wr91pB9M3JJ8HUg6xL-2OnI");
+        background-image: url("/images/Main_Image.jpg");
         background-size: cover;
         background-position: center;
+        background-attachment: fixed;
         // background-color: red;
         // background-repeat: no-repeat;
     }
@@ -266,7 +268,7 @@
             height: 100%;
             // width: 700px;
             width: 55%;
-            background-image: url("https://media.licdn.com/dms/image/D4D03AQEuERGV8YqRrw/profile-displayphoto-shrink_400_400/0/1680588569235?e=1687996800&v=beta&t=Q6iwXHT0c271aJJ98CQ6wr91pB9M3JJ8HUg6xL-2OnI");
+            background-image: url("/images/Main_Image.jpg");
             background-size: cover;
             // background-color: red;
             // background-repeat: no-repeat;
@@ -402,7 +404,7 @@
             height: 100%;
             // width: 700px;
             width: 55%;
-            background-image: url("https://media.licdn.com/dms/image/D4D03AQEuERGV8YqRrw/profile-displayphoto-shrink_400_400/0/1680588569235?e=1687996800&v=beta&t=Q6iwXHT0c271aJJ98CQ6wr91pB9M3JJ8HUg6xL-2OnI");
+            background-image: url("/images/Main_Image.jpg");
             background-size: cover;
             // background-color: red;
             // background-repeat: no-repeat;
@@ -510,7 +512,7 @@
             height: 100vh;
             // width: 700px;
             width: 55%;
-            background-image: url("https://media.licdn.com/dms/image/D4D03AQEuERGV8YqRrw/profile-displayphoto-shrink_400_400/0/1680588569235?e=1687996800&v=beta&t=Q6iwXHT0c271aJJ98CQ6wr91pB9M3JJ8HUg6xL-2OnI");
+            background-image: url("/images/Main_Image.jpg");
             background-size: cover;
             // background-color: red;
             // background-repeat: no-repeat;
@@ -618,7 +620,7 @@
             height: 100vh;
             // width: 700px;
             width: 55%;
-            background-image: url("https://media.licdn.com/dms/image/D4D03AQEuERGV8YqRrw/profile-displayphoto-shrink_400_400/0/1680588569235?e=1687996800&v=beta&t=Q6iwXHT0c271aJJ98CQ6wr91pB9M3JJ8HUg6xL-2OnI");
+            background-image: url("/images/Main_Image.jpg");
             background-size: cover;
             // background-color: red;
             // background-repeat: no-repeat;
@@ -726,7 +728,7 @@
             height: 100vh;
             // width: 700px;
             width: 55%;
-            background-image: url("https://media.licdn.com/dms/image/D4D03AQEuERGV8YqRrw/profile-displayphoto-shrink_400_400/0/1680588569235?e=1687996800&v=beta&t=Q6iwXHT0c271aJJ98CQ6wr91pB9M3JJ8HUg6xL-2OnI");
+            background-image: url("/images/Main_Image.jpg");
             background-size: cover;
             // background-color: red;
             // background-repeat: no-repeat;
@@ -829,7 +831,7 @@
             height: 100vh;
             // width: 700px;
             width: 55%;
-            background-image: url("https://media.licdn.com/dms/image/D4D03AQEuERGV8YqRrw/profile-displayphoto-shrink_400_400/0/1680588569235?e=1687996800&v=beta&t=Q6iwXHT0c271aJJ98CQ6wr91pB9M3JJ8HUg6xL-2OnI");
+            background-image: url("/images/Main_Image.jpg");
             background-size: cover;
             // background-color: red;
             // background-repeat: no-repeat;
@@ -932,7 +934,7 @@
             height: inherit;
             // width: 700px;
             width: 50%;
-            background-image: url("https://media.licdn.com/dms/image/D4D03AQEuERGV8YqRrw/profile-displayphoto-shrink_400_400/0/1680588569235?e=1687996800&v=beta&t=Q6iwXHT0c271aJJ98CQ6wr91pB9M3JJ8HUg6xL-2OnI");
+            background-image: url("/images/Main_Image.jpg");
             background-size: cover;
             // background-color: red;
             // background-repeat: no-repeat;
@@ -1035,7 +1037,7 @@
             height: inherit;
             // width: 700px;
             width: 50%;
-            background-image: url("https://media.licdn.com/dms/image/D4D03AQEuERGV8YqRrw/profile-displayphoto-shrink_400_400/0/1680588569235?e=1687996800&v=beta&t=Q6iwXHT0c271aJJ98CQ6wr91pB9M3JJ8HUg6xL-2OnI");
+            background-image: url("/images/Main_Image.jpg");
             background-size: cover;
             // background-color: red;
             // background-repeat: no-repeat;
@@ -1142,7 +1144,7 @@
             height: 100vh;
             // width: 700px;
             width: 0;
-            background-image: url("https://media.licdn.com/dms/image/D4D03AQEuERGV8YqRrw/profile-displayphoto-shrink_400_400/0/1680588569235?e=1687996800&v=beta&t=Q6iwXHT0c271aJJ98CQ6wr91pB9M3JJ8HUg6xL-2OnI");
+            background-image: url("/images/Main_Image.jpg");
             background-size: cover;
             // background-color: red;
             // background-repeat: no-repeat;
@@ -1247,7 +1249,7 @@
             height: 100vh;
             // width: 700px;
             width: 0;
-            background-image: url("https://media.licdn.com/dms/image/D4D03AQEuERGV8YqRrw/profile-displayphoto-shrink_400_400/0/1680588569235?e=1687996800&v=beta&t=Q6iwXHT0c271aJJ98CQ6wr91pB9M3JJ8HUg6xL-2OnI");
+            background-image: url("/images/Main_Image.jpg");
             background-size: cover;
             // background-color: red;
             // background-repeat: no-repeat;
@@ -1352,7 +1354,7 @@
             height: 100vh;
             // width: 700px;
             width: 0;
-            background-image: url("https://media.licdn.com/dms/image/D4D03AQEuERGV8YqRrw/profile-displayphoto-shrink_400_400/0/1680588569235?e=1687996800&v=beta&t=Q6iwXHT0c271aJJ98CQ6wr91pB9M3JJ8HUg6xL-2OnI");
+            background-image: url("/images/Main_Image.jpg");
             background-size: cover;
             // background-color: red;
             // background-repeat: no-repeat;
@@ -1461,7 +1463,7 @@
             height: 100vh;
             // width: 700px;
             width: 0;
-            background-image: url("https://media.licdn.com/dms/image/D4D03AQEuERGV8YqRrw/profile-displayphoto-shrink_400_400/0/1680588569235?e=1687996800&v=beta&t=Q6iwXHT0c271aJJ98CQ6wr91pB9M3JJ8HUg6xL-2OnI");
+            background-image: url("/images/Main_Image.jpg");
             background-size: cover;
             // background-color: red;
             // background-repeat: no-repeat;
@@ -1569,7 +1571,7 @@
             height: 100vh;
             // width: 700px;
             width: 0;
-            background-image: url("https://media.licdn.com/dms/image/D4D03AQEuERGV8YqRrw/profile-displayphoto-shrink_400_400/0/1680588569235?e=1687996800&v=beta&t=Q6iwXHT0c271aJJ98CQ6wr91pB9M3JJ8HUg6xL-2OnI");
+            background-image: url("/images/Main_Image.jpg");
             background-size: cover;
             // background-color: red;
             // background-repeat: no-repeat;
