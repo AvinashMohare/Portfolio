@@ -48,7 +48,7 @@ const ProjectsList = [
         title: "OrangeHacks",
         desc: "Website for a community that hosts and organizes tech events in Nagpur. The website serves as a hub for providing information about past and upcoming events.",
         Svg: Globe,
-        link: "#projects",
+        link: "https://www.orangehacks.co/",
         aos: "fade-down",
     },
 ];
