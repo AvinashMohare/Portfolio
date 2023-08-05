@@ -1,6 +1,15 @@
 import classes from "../styles/About.module.scss";
 
 const About = () => {
+    const handleDownload = () => {
+        const link = document.createElement("a");
+        link.href = "/Resume.pdf";
+        link.download = "AvinashResume.pdf";
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    };
+
     return (
         <div className={classes.rootAbout} id="about">
             <div className={classes.heading}>
@@ -52,7 +61,11 @@ const About = () => {
                 </p>
             </div>
 
-            <div className={classes.button} data-aos="fade-up">
+            <div
+                className={classes.button}
+                data-aos="fade-up"
+                onClick={handleDownload}
+            >
                 <p>Download CV</p>
             </div>
         </div>
