@@ -3,7 +3,7 @@ import classes from "../styles/About.module.scss";
 const About = () => {
     const handleDownload = () => {
         const link = document.createElement("a");
-        link.href = "/Resume.pdf";
+        link.href = "/Avinash_Mohare.pdf";
         link.download = "AvinashResume.pdf";
         document.body.appendChild(link);
         link.click();
